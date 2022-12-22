@@ -49,4 +49,29 @@
     
   </entry>
   
+  <entry>
+    <title>安徽豆腐之旅</title>
+    <link href="http://example.com/2016/11/22/test-blog/"/>
+    <id>http://example.com/2016/11/22/test-blog/</id>
+    <published>2016-11-22T21:30:46.000Z</published>
+    <updated>2022-12-22T21:41:24.231Z</updated>
+    
+    <content type="html"><![CDATA[<p>八公山豆腐村，已是一道旅游经典，一条山路上沿路两边房屋，家家做豆腐，趁此之行我们拜访了《舌尖上的中国》里秀过绝活的胡学兵，偷师学做豆腐。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;八公山豆腐村，已是一道旅游经典，一条山路上沿路两边房屋，家家做豆腐，趁此之行我们拜访了《舌尖上的中国》里秀过绝活的胡学兵，偷师学做豆腐。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="travel" scheme="http://example.com/tags/travel/"/>
+    
+    <category term="research," scheme="http://example.com/tags/research/"/>
+    
+  </entry>
+  
 </feed>

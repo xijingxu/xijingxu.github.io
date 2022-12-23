@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Xijing&#39;s blog</title>
   
-  <subtitle>溪婧写字记录的地方</subtitle>
+  <subtitle>She occasionally paints, crafts, writes, and documents</subtitle>
   <link href="http://xijingxu.blog/atom.xml" rel="self"/>
   
   <link href="http://xijingxu.blog/"/>
@@ -54,7 +54,7 @@
     <link href="http://xijingxu.blog/2016/11/22/travel-of-tofu/"/>
     <id>http://xijingxu.blog/2016/11/22/travel-of-tofu/</id>
     <published>2016-11-22T21:30:46.000Z</published>
-    <updated>2022-12-22T22:45:50.436Z</updated>
+    <updated>2022-12-23T01:26:08.667Z</updated>
     
     <content type="html"><![CDATA[<p>八公山豆腐村，已是一道旅游经典，一条山路上沿路两边房屋，家家做豆腐，趁此之行我们拜访了《舌尖上的中国》里秀过绝活的胡学兵，偷师学做豆腐。</p><h2 id="八公山"><a href="#八公山" class="headerlink" title="八公山"></a>八公山</h2>]]></content>
     
@@ -70,7 +70,7 @@
     
     <category term="travel" scheme="http://xijingxu.blog/tags/travel/"/>
     
-    <category term="research," scheme="http://xijingxu.blog/tags/research/"/>
+    <category term="research" scheme="http://xijingxu.blog/tags/research/"/>
     
   </entry>
   

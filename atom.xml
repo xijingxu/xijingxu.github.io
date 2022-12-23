@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Xijing&#39;s blog</title>
   
+  <subtitle>溪婧写字记录的地方</subtitle>
+  <link href="http://xijingxu.blog/atom.xml" rel="self"/>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/"/>
+  <link href="http://xijingxu.blog/"/>
   <updated>2022-12-22T20:27:49.198Z</updated>
-  <id>http://example.com/</id>
+  <id>http://xijingxu.blog/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Xijing Xu</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>testBlog</title>
-    <link href="http://example.com/2022/12/22/testBlog/"/>
-    <id>http://example.com/2022/12/22/testBlog/</id>
+    <link href="http://xijingxu.blog/2022/12/22/testBlog/"/>
+    <id>http://xijingxu.blog/2022/12/22/testBlog/</id>
     <published>2022-12-22T20:27:49.000Z</published>
     <updated>2022-12-22T20:27:49.198Z</updated>
     
@@ -31,8 +31,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/12/22/hello-world/"/>
-    <id>http://example.com/2022/12/22/hello-world/</id>
+    <link href="http://xijingxu.blog/2022/12/22/hello-world/"/>
+    <id>http://xijingxu.blog/2022/12/22/hello-world/</id>
     <published>2022-12-22T20:24:41.917Z</published>
     <updated>2022-12-22T20:24:41.917Z</updated>
     
@@ -51,8 +51,8 @@
   
   <entry>
     <title>安徽豆腐之旅</title>
-    <link href="http://example.com/2016/11/22/travel-of-tofu/"/>
-    <id>http://example.com/2016/11/22/travel-of-tofu/</id>
+    <link href="http://xijingxu.blog/2016/11/22/travel-of-tofu/"/>
+    <id>http://xijingxu.blog/2016/11/22/travel-of-tofu/</id>
     <published>2016-11-22T21:30:46.000Z</published>
     <updated>2022-12-22T22:45:50.436Z</updated>
     
@@ -68,9 +68,9 @@
     
     
     
-    <category term="travel" scheme="http://example.com/tags/travel/"/>
+    <category term="travel" scheme="http://xijingxu.blog/tags/travel/"/>
     
-    <category term="research," scheme="http://example.com/tags/research/"/>
+    <category term="research," scheme="http://xijingxu.blog/tags/research/"/>
     
   </entry>
   

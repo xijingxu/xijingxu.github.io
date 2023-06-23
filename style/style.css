@@ -251,8 +251,7 @@ h6 {
   src: url("../font/iconfont/iconfont.eot");
   src: url("../font/iconfont/iconfont.eot?#iefix") format('embedded-opentype'), url("../font/iconfont/iconfont.woff2") format('woff2'), url("../font/iconfont/iconfont.woff") format('woff'), url("../font/iconfont/iconfont.ttf") format('truetype'), url("../font/iconfont/iconfont.svg#iconfont") format('svg');
 }
-.iconfont,
-.post-toc .toc-link.active {
+.iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
   font-style: normal;
@@ -603,7 +602,7 @@ h6 {
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: transparent;
   color: #000;
   min-height: 48px;
   height: 48px;
@@ -635,7 +634,7 @@ h6 {
   display: flex;
   align-items: center;
 }
-.mobile-header.header-scroll {
+#  .header-scroll {
   transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -moz-transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -webkit-transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
@@ -794,7 +793,7 @@ body.under {
   z-index: 9;
   width: 100%;
   padding: 24px 0;
-  background-color: #fff;
+  background-color: transparent;
   transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -moz-transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -webkit-transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
@@ -892,17 +891,17 @@ body.under {
   text-shadow: 1px 1px 0px #d6d6d6;
   color: #999;
 }
-.header.header-scroll {
+#  .header-scroll {
   padding: 8px 0;
   box-shadow: -4px -1px 8px #ccc;
 }
-.header.header-scroll.header-hide {
+#  .header-scroll.header-hide {
   opacity: 0;
 }
-.header.header-scroll #subtitle {
+#  .header-scroll #subtitle {
   opacity: 0 !important;
 }
-.header.melt {
+#  .melt {
   opacity: 0;
   transition: opacity 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -moz-transition: opacity 280ms cubic-bezier(0.8, 0, 0.2, 1);
@@ -1642,11 +1641,15 @@ body.under {
   padding-left: 16px;
 }
 .post-toc .toc-link {
-  word-break: break-all;
+  word-break: break-word;
+}
+.post-toc .toc-link:before {
+  content: '⁃';
+  padding: 0 8px;
 }
 .post-toc .toc-link.active:before {
-  content: '\e7eb';
-  color: #999;
+  content: '→';
+  color: 0;
 }
 .post-toc .toc-link.active .toc-text {
   padding: 0 4px;

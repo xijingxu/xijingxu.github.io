@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xijingxu.blog/2023/06/19/blog-update/</loc>
+    
+    <lastmod>2023-06-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xijingxu.blog/2019/04/19/wanderer/</loc>
     
     <lastmod>2023-06-29</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>http://xijingxu.blog/2023/05/01/fortune-desserts-2022-abC/</loc>
-    
-    <lastmod>2023-06-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/2023/06/19/blog-update/</loc>
     
     <lastmod>2023-06-29</lastmod>
     

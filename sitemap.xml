@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xijingxu.blog/2023/07/13/rencontres-arles/</loc>
+    
+    <lastmod>2023-07-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xijingxu.blog/About/index.html</loc>
     
     <lastmod>2023-07-09</lastmod>
@@ -130,7 +139,7 @@
 
   <url>
     <loc>http://xijingxu.blog/</loc>
-    <lastmod>2023-07-09</lastmod>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,63 +147,70 @@
   
   <url>
     <loc>http://xijingxu.blog/tags/note/</loc>
-    <lastmod>2023-07-09</lastmod>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xijingxu.blog/tags/travel/</loc>
-    <lastmod>2023-07-09</lastmod>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xijingxu.blog/tags/guide/</loc>
-    <lastmod>2023-07-09</lastmod>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xijingxu.blog/tags/food/</loc>
-    <lastmod>2023-07-09</lastmod>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xijingxu.blog/tags/recipe/</loc>
-    <lastmod>2023-07-09</lastmod>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xijingxu.blog/tags/handwork/</loc>
-    <lastmod>2023-07-09</lastmod>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xijingxu.blog/tags/website/</loc>
-    <lastmod>2023-07-09</lastmod>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xijingxu.blog/tags/research/</loc>
-    <lastmod>2023-07-09</lastmod>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xijingxu.blog/tags/newsletter/</loc>
-    <lastmod>2023-07-09</lastmod>
+    <lastmod>2023-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/tags/photography/</loc>
+    <lastmod>2023-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

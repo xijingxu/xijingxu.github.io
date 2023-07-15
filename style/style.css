@@ -1257,39 +1257,31 @@ body.under {
   content: '';
   margin-right: 2px;
 }
-.post .post-content,
-.archive .archive-post .archive-post-content {
+.post .post-content {
   color: #383838;
   font-family: 'Optima' , 'PingFang SC' , 'Roboto' , 'Noto SansCJK' , 'Helvetica Neue' , 'Helvetica' , "Microsoft YaHei" , "YaHei-Consolas-Hybrid" , sans-serif;
   padding-bottom: 8px;
   border-bottom: 0px solid #f0f0f0;
 }
-.post .post-content h1,
-.archive .archive-post .archive-post-content h1 {
+.post .post-content h1 {
   font-family: 'Optima' , 'PingFang SC' , 'Roboto' , 'Noto SansCJK' , 'Helvetica Neue' , 'Helvetica' , "Microsoft YaHei" , "YaHei-Consolas-Hybrid" , sans-serif;
 }
-.post .post-content h2,
-.archive .archive-post .archive-post-content h2 {
+.post .post-content h2 {
   font-family: 'Optima' , 'PingFang SC' , 'Roboto' , 'Noto SansCJK' , 'Helvetica Neue' , 'Helvetica' , "Microsoft YaHei" , "YaHei-Consolas-Hybrid" , sans-serif;
 }
-.post .post-content h3,
-.archive .archive-post .archive-post-content h3 {
+.post .post-content h3 {
   font-family: 'Optima' , 'PingFang SC' , 'Roboto' , 'Noto SansCJK' , 'Helvetica Neue' , 'Helvetica' , "Microsoft YaHei" , "YaHei-Consolas-Hybrid" , sans-serif;
 }
-.post .post-content h4,
-.archive .archive-post .archive-post-content h4 {
+.post .post-content h4 {
   font-family: 'Optima' , 'PingFang SC' , 'Roboto' , 'Noto SansCJK' , 'Helvetica Neue' , 'Helvetica' , "Microsoft YaHei" , "YaHei-Consolas-Hybrid" , sans-serif;
 }
-.post .post-content h5,
-.archive .archive-post .archive-post-content h5 {
+.post .post-content h5 {
   font-family: 'Optima' , 'PingFang SC' , 'Roboto' , 'Noto SansCJK' , 'Helvetica Neue' , 'Helvetica' , "Microsoft YaHei" , "YaHei-Consolas-Hybrid" , sans-serif;
 }
-.post .post-content h6,
-.archive .archive-post .archive-post-content h6 {
+.post .post-content h6 {
   font-family: 'Optima' , 'PingFang SC' , 'Roboto' , 'Noto SansCJK' , 'Helvetica Neue' , 'Helvetica' , "Microsoft YaHei" , "YaHei-Consolas-Hybrid" , sans-serif;
 }
-.post .post-content table,
-.archive .archive-post .archive-post-content table {
+.post .post-content table {
   min-width: 50%;
   margin: 16px auto;
   border-collapse: collapse;
@@ -1297,34 +1289,27 @@ body.under {
   line-height: 1.5;
   text-align: center;
 }
-.post .post-content table tr,
-.archive .archive-post .archive-post-content table tr {
+.post .post-content table tr {
   font-weight: 500;
 }
-.post .post-content table tr:nth-child(2n),
-.archive .archive-post .archive-post-content table tr:nth-child(2n) {
+.post .post-content table tr:nth-child(2n) {
   background: rgba(153,153,153,0.06);
 }
 .post .post-content table th,
-.archive .archive-post .archive-post-content table th,
-.post .post-content table td,
-.archive .archive-post .archive-post-content table td {
+.post .post-content table td {
   min-width: 100px;
   padding: 8px;
   word-break: break-all;
 }
-.post .post-content table thead,
-.archive .archive-post .archive-post-content table thead {
+.post .post-content table thead {
   background-color: #fafafa;
 }
 @media screen and (max-width: 650px) {
-  .post .post-content table,
-  .archive .archive-post .archive-post-content table {
+  .post .post-content table {
     font-size: 12px;
   }
 }
-.post .post-content .content-link a,
-.archive .archive-post .archive-post-content .content-link a {
+.post .post-content .content-link a {
   margin: 8px 0;
   position: relative;
   float: right;
@@ -1332,13 +1317,11 @@ body.under {
   font-size: 32px;
   text-decoration: none;
 }
-.post .post-content .content-link a:hover,
-.archive .archive-post .archive-post-content .content-link a:hover {
+.post .post-content .content-link a:hover {
   text-decoration: none;
   color: #999;
 }
-.post .post-content .content-link a:after,
-.archive .archive-post .archive-post-content .content-link a:after {
+.post .post-content .content-link a:after {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -1350,49 +1333,40 @@ body.under {
   -moz-transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -webkit-transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
 }
-.post .post-content .content-link a:hover:after,
-.archive .archive-post .archive-post-content .content-link a:hover:after {
+.post .post-content .content-link a:hover:after {
   left: 0;
   right: 0;
 }
-.post .post-content p,
-.archive .archive-post .archive-post-content p {
+.post .post-content p {
   font-family: inherit;
   line-height: 1.5;
 }
-.post .post-content strong,
-.archive .archive-post .archive-post-content strong {
+.post .post-content strong {
   font-weight: 600;
 }
-.post .post-content a,
-.archive .archive-post .archive-post-content a {
+.post .post-content a {
   color: #999;
   text-decoration: none;
 }
-.post .post-content a:hover,
-.archive .archive-post .archive-post-content a:hover {
+.post .post-content a:hover {
   color: #383838;
   text-decoration: underline;
 }
-.post .post-content i,
-.archive .archive-post .archive-post-content i {
+.post .post-content i {
   font-weight: 300;
 }
-.post .post-content img,
-.archive .archive-post .archive-post-content img {
+.post .post-content img {
   max-width: 100%;
   display: inline;
 }
-.post .post-content code,
-.archive .archive-post .archive-post-content code {
+.post .post-content code {
   background-color: rgba(153,153,153,0.1);
   color: #4c4c4c;
   font-family: 'Segoe UI', monospace, Consolas, Monaco, Menlo, 'Microsoft YaHei', sans-serif;
   margin: 0 4px;
   padding: 0 4px;
 }
-.post .post-content blockquote,
-.archive .archive-post .archive-post-content blockquote {
+.post .post-content blockquote {
   position: relative;
   margin: 8px 32px;
   padding: 0 16px;
@@ -1400,8 +1374,7 @@ body.under {
   border-left: 1px solid #383838;
   color: #383838;
 }
-.post .post-content blockquote:before,
-.archive .archive-post .archive-post-content blockquote:before {
+.post .post-content blockquote:before {
   content: '';
   position: absolute;
   top: 0;
@@ -1413,14 +1386,11 @@ body.under {
   width: 0;
   box-shadow: -1px 1px 1px -1px #bbb4b4;
 }
-.post .post-content blockquote p,
-.archive .archive-post .archive-post-content blockquote p {
+.post .post-content blockquote p {
   margin: 8px 0;
 }
 .post .post-content ul,
-.archive .archive-post .archive-post-content ul,
-.post .post-content ol,
-.archive .archive-post .archive-post-content ol {
+.post .post-content ol {
   line-height: 2;
 }
 #com-switch {
@@ -1448,17 +1418,13 @@ body.under {
   color: #999;
 }
 .archive .archive-post {
-  max-width: 100%;
-  height: 260px;
-  max-height: 260px;
-  overflow: hidden;
-  padding: 16px;
+  padding: 24px;
   position: relative;
   border: 0px solid #f0f0f0;
   margin-bottom: 16px;
 }
-.archive .archive-post :last-child {
-  margin-bottom: 0;
+.archive .archive-post .archive-post-content {
+  display: none;
 }
 .archive .archive-post .archive-post-info {
   position: absolute;
@@ -1467,36 +1433,23 @@ body.under {
   left: 0;
   right: 0;
   padding: 16px;
-  z-index: 1;
-  overflow: hidden;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   align-items: initial;
   justify-content: flex-end;
 }
-.archive .archive-post .archive-post-info:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  background: linear-gradient(transparent 10%, #fff 84%);
-}
 .archive .archive-post .archive-post-info a {
   text-decoration: none;
 }
 .archive .archive-post .archive-post-info .archive-post-time {
-  font-size: 14px;
+  font-size: 10px;
   color: #383838;
 }
 .archive .archive-post .archive-post-info .archive-post-link {
   color: #383838;
-  font-size: 22px;
+  font-size: 16px;
   margin: 0;
-  margin-top: 8px;
 }
 .archive .archive-post .archive-post-info .archive-post-link:hover {
   color: #b2b2b2;

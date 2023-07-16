@@ -1,8 +1,8 @@
+http://xijingxu.blog/About/index.html
 http://xijingxu.blog/2023/05/01/fortune-desserts-2022-abC/
 http://xijingxu.blog/2023/07/13/rencontres-arles/
 http://xijingxu.blog/2023/06/19/blog-update/
 http://xijingxu.blog/2023/04/17/2023-milan-design-week/
-http://xijingxu.blog/About/index.html
 http://xijingxu.blog/impressum/index.html
 http://xijingxu.blog/404.html
 http://xijingxu.blog/2022/12/29/tofoodesign-newsletter/
@@ -19,8 +19,8 @@ http://xijingxu.blog/tags/travel/
 http://xijingxu.blog/tags/guide/
 http://xijingxu.blog/tags/food/
 http://xijingxu.blog/tags/recipe/
-http://xijingxu.blog/tags/research/
-http://xijingxu.blog/tags/website/
 http://xijingxu.blog/tags/handwork/
+http://xijingxu.blog/tags/website/
+http://xijingxu.blog/tags/research/
 http://xijingxu.blog/tags/photography/
 http://xijingxu.blog/tags/newsletter/

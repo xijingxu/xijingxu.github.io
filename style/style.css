@@ -620,7 +620,7 @@ h6 {
   font-size: initial;
 }
 .mobile-header .mobile-header-nav .mobile-header-title a {
-  font-family: 'tsangerjinkai01-27533-W02', cursive, serif;
+  font-family: 'Heiti TC', cursive, serif;
   text-decoration: none;
   font-size: 24px;
   color: inherit;
@@ -826,7 +826,7 @@ body.under {
   -moz-user-select: none;
   -webkit-user-select: none;
   font-size: 22px;
-  font-family: 'tsangerjinkai01-27533-W02', cursive, serif;
+  font-family: 'Heiti TC', cursive, serif;
   margin-left: 16px;
 }
 .header .logo a {

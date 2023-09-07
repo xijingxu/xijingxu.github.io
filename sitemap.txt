@@ -1,3 +1,4 @@
+http://xijingxu.blog/2023/09/08/alle-reden-ueber-KI/
 http://xijingxu.blog/About/index.html
 http://xijingxu.blog/2023/07/13/rencontres-arles/
 http://xijingxu.blog/2020/04/04/calendar-book/
@@ -16,6 +17,7 @@ http://xijingxu.blog/2013/11/02/ninghai/
 http://xijingxu.blog/datenschutz/index.html
 http://xijingxu.blog/
 http://xijingxu.blog/tags/note/
+http://xijingxu.blog/tags/random/
 http://xijingxu.blog/tags/travel/
 http://xijingxu.blog/tags/guide/
 http://xijingxu.blog/tags/food/
@@ -25,4 +27,3 @@ http://xijingxu.blog/tags/website/
 http://xijingxu.blog/tags/research/
 http://xijingxu.blog/tags/photography/
 http://xijingxu.blog/tags/newsletter/
-http://xijingxu.blog/tags/random/

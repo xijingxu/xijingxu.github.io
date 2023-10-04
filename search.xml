@@ -117,8 +117,6 @@
             
             <tag> travel </tag>
             
-            <tag> guide </tag>
-            
             <tag> note </tag>
             
         </tags>
@@ -141,6 +139,8 @@
             <tag> food </tag>
             
             <tag> recipe </tag>
+            
+            <tag> community </tag>
             
         </tags>
       
@@ -178,7 +178,7 @@
       
         <tags>
             
-            <tag> handwork </tag>
+            <tag> craft </tag>
             
         </tags>
       
@@ -197,7 +197,7 @@
       
         <tags>
             
-            <tag> handwork </tag>
+            <tag> craft </tag>
             
         </tags>
       
@@ -218,7 +218,11 @@
             
             <tag> food </tag>
             
+            <tag> design </tag>
+            
             <tag> research </tag>
+            
+            <tag> textile </tag>
             
         </tags>
       

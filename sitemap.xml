@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xijingxu.blog/2023/10/20/fermentation-diary/</loc>
+    
+    <lastmod>2023-10-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/2023/07/13/rencontres-arles/</loc>
+    
+    <lastmod>2023-10-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/2023/04/17/2023-milan-design-week/</loc>
+    
+    <lastmod>2023-10-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/2023/05/01/fortune-desserts-2022-abC/</loc>
+    
+    <lastmod>2023-10-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xijingxu.blog/2023/10/19/porcelain-manufacturer-visit/</loc>
     
     <lastmod>2023-10-19</lastmod>
@@ -38,15 +74,6 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/2023/04/17/2023-milan-design-week/</loc>
-    
-    <lastmod>2023-10-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://xijingxu.blog/2023/02/08/2023-new-year/</loc>
     
     <lastmod>2023-10-04</lastmod>
@@ -57,6 +84,15 @@
   
   <url>
     <loc>http://xijingxu.blog/2020/06/23/Zimmerumbau/</loc>
+    
+    <lastmod>2023-10-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/2016/11/22/travel-of-tofu/</loc>
     
     <lastmod>2023-10-04</lastmod>
     
@@ -92,24 +128,6 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/2023/07/13/rencontres-arles/</loc>
-    
-    <lastmod>2023-09-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/2023/05/01/fortune-desserts-2022-abC/</loc>
-    
-    <lastmod>2023-07-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://xijingxu.blog/impressum/index.html</loc>
     
     <lastmod>2023-06-30</lastmod>
@@ -129,15 +147,6 @@
   
   <url>
     <loc>http://xijingxu.blog/2022/12/29/tofoodesign-newsletter/</loc>
-    
-    <lastmod>2023-06-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/2016/11/22/travel-of-tofu/</loc>
     
     <lastmod>2023-06-29</lastmod>
     
@@ -173,6 +182,13 @@
 
   
   <url>
+    <loc>http://xijingxu.blog/tags/random/</loc>
+    <lastmod>2023-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://xijingxu.blog/tags/food/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -180,7 +196,7 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/design/</loc>
+    <loc>http://xijingxu.blog/tags/fermentation/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -194,14 +210,14 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/recipe/</loc>
+    <loc>http://xijingxu.blog/tags/news/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/random/</loc>
+    <loc>http://xijingxu.blog/tags/design/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -215,28 +231,7 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/note/</loc>
-    <lastmod>2023-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/tags/website/</loc>
-    <lastmod>2023-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/tags/photography/</loc>
-    <lastmod>2023-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/tags/newsletter/</loc>
+    <loc>http://xijingxu.blog/tags/recipe/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -264,6 +259,13 @@
   </url>
   
   <url>
+    <loc>http://xijingxu.blog/tags/note/</loc>
+    <lastmod>2023-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://xijingxu.blog/tags/community/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -271,7 +273,28 @@
   </url>
   
   <url>
+    <loc>http://xijingxu.blog/tags/photography/</loc>
+    <lastmod>2023-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/tags/website/</loc>
+    <lastmod>2023-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://xijingxu.blog/tags/manufacture/</loc>
+    <lastmod>2023-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/tags/newsletter/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

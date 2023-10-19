@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://xijingxu.blog/2023/10/20/fermentation-diary/</loc>
+    <loc>http://xijingxu.blog/2023/10/20/fermentation-note/</loc>
     
     <lastmod>2023-10-19</lastmod>
     
@@ -259,20 +259,6 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/note/</loc>
-    <lastmod>2023-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/tags/community/</loc>
-    <lastmod>2023-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://xijingxu.blog/tags/photography/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -280,7 +266,21 @@
   </url>
   
   <url>
+    <loc>http://xijingxu.blog/tags/note/</loc>
+    <lastmod>2023-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://xijingxu.blog/tags/website/</loc>
+    <lastmod>2023-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/tags/community/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

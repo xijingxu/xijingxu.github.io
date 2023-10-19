@@ -182,14 +182,21 @@
 
   
   <url>
-    <loc>http://xijingxu.blog/tags/random/</loc>
+    <loc>http://xijingxu.blog/tags/food/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/food/</loc>
+    <loc>http://xijingxu.blog/tags/design/</loc>
+    <lastmod>2023-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/tags/random/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -217,7 +224,7 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/design/</loc>
+    <loc>http://xijingxu.blog/tags/recipe/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -225,13 +232,6 @@
   
   <url>
     <loc>http://xijingxu.blog/tags/travel/</loc>
-    <lastmod>2023-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/tags/recipe/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -259,13 +259,6 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/photography/</loc>
-    <lastmod>2023-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://xijingxu.blog/tags/note/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -273,14 +266,21 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/website/</loc>
+    <loc>http://xijingxu.blog/tags/community/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/community/</loc>
+    <loc>http://xijingxu.blog/tags/photography/</loc>
+    <lastmod>2023-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/tags/website/</loc>
     <lastmod>2023-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

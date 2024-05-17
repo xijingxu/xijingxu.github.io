@@ -1883,3 +1883,14 @@ body.under {
   display: block;
   width: 100px;
 }
+.scroll-container {
+  background-color: rgba(0,0,0,0);
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+.scroll-container img {
+  padding: 10px;
+  max-height: 550px;
+  max-width: auto;
+}

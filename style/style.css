@@ -1883,14 +1883,43 @@ body.under {
   display: block;
   width: 100px;
 }
+.scroll-wrapper {
+  position: relative;
+  display: flex;
+  align-items: left;
+  width: 100%;
+}
 .scroll-container {
   background-color: rgba(0,0,0,0);
   overflow: auto;
   white-space: nowrap;
-  padding: 10px;
+  padding: 0;
+  flex: 1;
 }
 .scroll-container img {
-  padding: 10px;
-  max-height: 550px;
-  max-width: auto;
+  padding: 0.1rem;
+  max-height: 520px;
+  object-fit: scale-down;
+  display: inline-block;
+}
+/* Media query for middle screens */
+@media (max-width: 900px) {
+  .scroll-container img {
+    max-height: 350px;
+    min-width: 150px;
+  }
+}
+/* Media query for small screens */
+@media (max-width: 700px) {
+  .scroll-container img {
+    max-height: 250px;
+    min-width: 150px;
+  }
+}
+/* Media query for very small screens */
+@media (max-width: 400px) {
+  .scroll-container img {
+    max-height: 200px;
+    min-width: 100px;
+  }
 }

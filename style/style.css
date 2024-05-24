@@ -620,7 +620,7 @@ h6 {
   font-size: initial;
 }
 .mobile-header .mobile-header-nav .mobile-header-title a {
-  font-family: "Heiti TC", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   text-decoration: none;
   font-size: 24px;
   color: inherit;
@@ -765,7 +765,7 @@ body.under {
   -moz-transform: scale(0.95);
   -webkit-transform: scale(0.95);
   transform-origin: top;
-  filter: blur(16px);
+  filter: opacity(0);
 }
 .container .container-inner.has_toc {
   padding-left: 8px;
@@ -826,7 +826,7 @@ body.under {
   -moz-user-select: none;
   -webkit-user-select: none;
   font-size: 22px;
-  font-family: "Heiti TC", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   margin-left: 16px;
 }
 .header .logo a {
@@ -844,7 +844,7 @@ body.under {
   margin-top: 2px;
   font-size: 12px;
   width: 100%;
-  font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Heiti TC", Arial, sans-serif;
   transition: opacity 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -moz-transition: opacity 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -webkit-transition: opacity 280ms cubic-bezier(0.8, 0, 0.2, 1);
@@ -1185,6 +1185,7 @@ body.under {
 .post {
   position: relative;
   margin-top: 24px;
+  margin-left: 0px;
   margin-bottom: 100px;
   padding: 16px;
   position: relative;
@@ -1287,7 +1288,7 @@ body.under {
   border-collapse: collapse;
   list-style: none;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 .post .post-content table tr {
   font-weight: 500;

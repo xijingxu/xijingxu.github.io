@@ -238,7 +238,7 @@ h3 {
   font-size: 20px;
 }
 h4 {
-  font-size: 16px;
+  font-size: 1.1em;
 }
 h5 {
   font-size: 14px;
@@ -634,11 +634,13 @@ h6 {
   display: flex;
   align-items: center;
 }
-#  .header-scroll {
+.mobile-header.header-scroll {
   transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -moz-transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -webkit-transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
-  box-shadow: -4px -1px 8px #ccc;
+  transition: background-position 0.5s;
+  -moz-transition: background-position 0.5s;
+  -webkit-transition: background-position 0.5s;
 }
 .mobile-header-body {
   display: none;
@@ -652,7 +654,6 @@ h6 {
   margin: 2;
   padding: 2;
   text-align: left;
-  backgroundColor: #fff;
 }
 .mobile-header-body .mobile-header-list .mobile-nav-item {
   line-height: 1.5;
@@ -726,6 +727,8 @@ h6 {
 .about {
   color: #383838;
   font-family: 'Optima' , 'PingFang SC' , 'Roboto' , 'Noto SansCJK' , 'Helvetica Neue' , 'Helvetica' , "Microsoft YaHei" , "YaHei-Consolas-Hybrid" , sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6em;
 }
 .about .content {
   padding: 0 16px;
@@ -774,13 +777,15 @@ body.under {
 }
 .main {
   max-width: 900px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  padding: 19px;
 }
 @media screen and (max-width: 936px) {
   .main {
     width: 100%;
     max-width: 100%;
-    padding: 0 16px;
+    padding: 16px, 16px;
   }
 }
 .header {
@@ -789,7 +794,7 @@ body.under {
   z-index: 9;
   width: 100%;
   padding: 0;
-  background-color: transparent;
+  background-color: Transparent;
   transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -moz-transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -webkit-transition: all 280ms cubic-bezier(0.8, 0, 0.2, 1);
@@ -1309,8 +1314,9 @@ body.under {
   }
 }
 .post .post-content .content-link a {
-  margin: 8px 0;
-  position: relative;
+  margin: 16px 0;
+  position: flex;
+  align-items: center;
   float: right;
   color: #383838;
   font-size: 32px;

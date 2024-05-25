@@ -729,6 +729,7 @@ h6 {
   font-family: 'Optima' , 'PingFang SC' , 'Roboto' , 'Noto SansCJK' , 'Helvetica Neue' , 'Helvetica' , "Microsoft YaHei" , "YaHei-Consolas-Hybrid" , sans-serif;
   font-size: 1.1em;
   line-height: 1.6em;
+  code-size: 0.8em;
 }
 .about .content {
   padding: 0 16px;
@@ -1192,7 +1193,7 @@ body.under {
   padding: 16px;
   position: relative;
   font-weight: 400;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
 }
 .post:last-child:after,
 .post.is_post:after {
@@ -1214,7 +1215,7 @@ body.under {
 }
 .post .post-header .post-time {
   color: #000;
-  letter-spacing: 2px;
+  letter-spacing: 0.03em;
   margin-left: 2px;
   font-size: 14px;
 }

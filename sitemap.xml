@@ -237,6 +237,27 @@
   </url>
   
   <url>
+    <loc>http://xijingxu.blog/tags/recipe/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/tags/community/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/tags/event/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://xijingxu.blog/tags/research/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -265,20 +286,6 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/recipe/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/tags/community/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://xijingxu.blog/tags/random/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -287,13 +294,6 @@
   
   <url>
     <loc>http://xijingxu.blog/tags/photography/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/tags/event/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -1405,13 +1405,13 @@ body.under {
   color: #383838;
 }
 .archive {
-  margin-top: 6em;
+  margin-top: 1em;
 }
 .archive .archive-list {
   max-width: 100%;
 }
 .archive .archive-title {
-  font-size: 32px;
+  font-size: 1.6em;
   margin: 8px;
   display: inline;
 }

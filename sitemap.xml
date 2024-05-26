@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/2024/05/20/2024-singapore-design-week/</loc>
-    
-    <lastmod>2024-05-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://xijingxu.blog/About/index.html</loc>
     
     <lastmod>2024-05-25</lastmod>
@@ -223,6 +214,27 @@
   </url>
   
   <url>
+    <loc>http://xijingxu.blog/tags/food/</loc>
+    <lastmod>2024-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/tags/research/</loc>
+    <lastmod>2024-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xijingxu.blog/tags/note/</loc>
+    <lastmod>2024-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://xijingxu.blog/tags/random/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -244,20 +256,6 @@
   </url>
   
   <url>
-    <loc>http://xijingxu.blog/tags/food/</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/tags/research/</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://xijingxu.blog/tags/recipe/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -266,13 +264,6 @@
   
   <url>
     <loc>http://xijingxu.blog/tags/textile/</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xijingxu.blog/tags/note/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -354,10 +354,12 @@
 
 
 <h4 id="Horizontal-Scroll"><a href="#Horizontal-Scroll" class="headerlink" title="Horizontal Scroll"></a>Horizontal Scroll</h4><p>&#x2F;themes&#x2F;Nlvi&#x2F;source&#x2F;style&#x2F;style.styl</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">.scroll-wrapper &#123;</span><br><span class="line">  position: relative;</span><br><span class="line">  display: flex;</span><br><span class="line">  align-items: left;</span><br><span class="line">  width: 100%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.scroll-container &#123;</span><br><span class="line">  background-color: #0000;</span><br><span class="line">  overflow: auto;</span><br><span class="line">  white-space: nowrap;</span><br><span class="line">  padding: 0;</span><br><span class="line">  flex: 1;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.scroll-container img &#123;</span><br><span class="line">  padding: 0.1rem;</span><br><span class="line">  max-height: 520px;</span><br><span class="line">  object-fit: scale-down;</span><br><span class="line">  display: inline-block;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* Media query for middle screens */</span><br><span class="line">@media (max-width: 900px) &#123;</span><br><span class="line">  .scroll-container img &#123;</span><br><span class="line">    max-height: 350px;</span><br><span class="line">    min-width: 150px;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* Media query for small screens */</span><br><span class="line">@media (max-width: 700px) &#123;</span><br><span class="line">  .scroll-container img &#123;</span><br><span class="line">    max-height: 250px;</span><br><span class="line">    min-width: 150px;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* Media query for very small screens */</span><br><span class="line">@media (max-width: 400px) &#123;</span><br><span class="line">  .scroll-container img &#123;</span><br><span class="line">    max-height: 200px;</span><br><span class="line">    min-width: 100px;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.scroll-wrapper</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">align-items</span>: left;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.scroll-container</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#0000</span>;</span><br><span class="line">  <span class="attribute">overflow</span>: auto;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">flex</span>: <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.scroll-container</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0.1rem</span>;</span><br><span class="line">  <span class="attribute">max-height</span>: <span class="number">520px</span>;</span><br><span class="line">  <span class="attribute">object-fit</span>: scale-down;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Media query for middle screens */</span></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">900px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.scroll-container</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">max-height</span>: <span class="number">350px</span>;</span><br><span class="line">    <span class="attribute">min-width</span>: <span class="number">150px</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Media query for small screens */</span></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">700px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.scroll-container</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">max-height</span>: <span class="number">250px</span>;</span><br><span class="line">    <span class="attribute">min-width</span>: <span class="number">150px</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Media query for very small screens */</span></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">400px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.scroll-container</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">max-height</span>: <span class="number">200px</span>;</span><br><span class="line">    <span class="attribute">min-width</span>: <span class="number">100px</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;scroll-wrapper&quot;&gt;</span><br><span class="line">&lt;div class=&quot;scroll-container&quot;&gt;</span><br><span class="line">  &lt;img src=&quot;&quot;&gt; </span><br><span class="line">  &lt;img src=&quot;&quot;&gt; </span><br><span class="line">  &lt;img src=&quot;&quot;&gt; </span><br><span class="line">&lt;/div&gt; </span><br><span class="line">&lt;/div&gt; </span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;scroll-container&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span>&gt;</span> </span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span>&gt;</span> </span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br></pre></td></tr></table></figure>
 
+<h4 id="单篇博文密码访问"><a href="#单篇博文密码访问" class="headerlink" title="单篇博文密码访问"></a>单篇博文密码访问</h4><p>Front-matter</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">password:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">输入密码显示文章</span></span><br><span class="line"><span class="attr">wrong_pass_message:</span> <span class="string">密码错误</span></span><br></pre></td></tr></table></figure>
 
 <h4 id="待修改-x2F-资料参考"><a href="#待修改-x2F-资料参考" class="headerlink" title="待修改&#x2F;资料参考"></a>待修改&#x2F;资料参考</h4><p>图片轮播</p>
 <p><a target="_blank" rel="noopener" href="https://mantyke.icu/posts/2021/cf2cf0fb/">https://mantyke.icu/posts/2021/cf2cf0fb/</a></p>
@@ -436,7 +438,7 @@
   <aside class="post-toc">
     <div class="title"><span>文章导航</span></div>
     <div class="toc-inner">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0"><span class="toc-text">代码笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2"><span class="toc-text">博客</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Meta"><span class="toc-text">Meta</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Horizontal-Scroll"><span class="toc-text">Horizontal Scroll</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BE%85%E4%BF%AE%E6%94%B9-x2F-%E8%B5%84%E6%96%99%E5%8F%82%E8%80%83"><span class="toc-text">待修改&#x2F;资料参考</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AA%E7%AB%99"><span class="toc-text">个站</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Full-Page-Click"><span class="toc-text">Full Page Click</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Screen-Size"><span class="toc-text">Screen Size</span></a></li></ol></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0"><span class="toc-text">代码笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2"><span class="toc-text">博客</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Meta"><span class="toc-text">Meta</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Horizontal-Scroll"><span class="toc-text">Horizontal Scroll</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%95%E7%AF%87%E5%8D%9A%E6%96%87%E5%AF%86%E7%A0%81%E8%AE%BF%E9%97%AE"><span class="toc-text">单篇博文密码访问</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BE%85%E4%BF%AE%E6%94%B9-x2F-%E8%B5%84%E6%96%99%E5%8F%82%E8%80%83"><span class="toc-text">待修改&#x2F;资料参考</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AA%E7%AB%99"><span class="toc-text">个站</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Full-Page-Click"><span class="toc-text">Full Page Click</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Screen-Size"><span class="toc-text">Screen Size</span></a></li></ol></li></ol></li></ol>
     </div>
   </aside>
 
@@ -498,22 +500,6 @@
     </div>
   
     <div class="tagcloud-tag">
-      <button>food</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>research</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>note</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>random</button>
-    </div>
-  
-    <div class="tagcloud-tag">
       <button>design</button>
     </div>
   
@@ -522,11 +508,27 @@
     </div>
   
     <div class="tagcloud-tag">
+      <button>food</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>research</button>
+    </div>
+  
+    <div class="tagcloud-tag">
       <button>recipe</button>
     </div>
   
     <div class="tagcloud-tag">
+      <button>random</button>
+    </div>
+  
+    <div class="tagcloud-tag">
       <button>textile</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>note</button>
     </div>
   
     <div class="tagcloud-tag">
@@ -584,145 +586,6 @@
   
     <div class="tagcloud-postlist ">
       <h2>art</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/08/21/housework-and-meditation/">
-            <time class="tagcloud-posttime">2023 / 08 / 21</time>
-            <span>家务之星&神游大王</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>food</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/02/08/2023-new-year/">
-            <time class="tagcloud-posttime">2023 / 02 / 08</time>
-            <span>围炉过年</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2024/02/12/2024-new-year/">
-            <time class="tagcloud-posttime">2024 / 02 / 12</time>
-            <span>龙年新春，炉边再聚</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/10/20/fermentation-note/">
-            <time class="tagcloud-posttime">2023 / 10 / 20</time>
-            <span>匆匆写下的发酵年记，和一点新动向</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/05/01/fortune-desserts-2022-abC/">
-            <time class="tagcloud-posttime">2023 / 05 / 01</time>
-            <span>回顾2022abC《幸运甜点》</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2016/11/22/travel-of-tofu/">
-            <time class="tagcloud-posttime">2016 / 11 / 22</time>
-            <span>豆腐之旅</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2019/04/19/wanderer/">
-            <time class="tagcloud-posttime">2019 / 04 / 19</time>
-            <span>漫游者——日常物件中的发酵</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/12/11/vertical-farm-work-review/">
-            <time class="tagcloud-posttime">2023 / 12 / 11</time>
-            <span>垂直农业从业手纪</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>research</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/10/20/fermentation-note/">
-            <time class="tagcloud-posttime">2023 / 10 / 20</time>
-            <span>匆匆写下的发酵年记，和一点新动向</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/05/01/fortune-desserts-2022-abC/">
-            <time class="tagcloud-posttime">2023 / 05 / 01</time>
-            <span>回顾2022abC《幸运甜点》</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2013/11/02/ninghai/">
-            <time class="tagcloud-posttime">2013 / 11 / 02</time>
-            <span>宁海红妆调研</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2016/11/22/travel-of-tofu/">
-            <time class="tagcloud-posttime">2016 / 11 / 22</time>
-            <span>豆腐之旅</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2019/04/19/wanderer/">
-            <time class="tagcloud-posttime">2019 / 04 / 19</time>
-            <span>漫游者——日常物件中的发酵</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>note</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/04/17/2023-milan-design-week/">
-            <time class="tagcloud-posttime">2023 / 04 / 17</time>
-            <span>2023米兰设计周</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/06/19/blog-update/">
-            <time class="tagcloud-posttime">2023 / 06 / 19</time>
-            <span>周末的夜晚，可以用来折腾网站</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/10/19/porcelain-manufacturer-visit/">
-            <time class="tagcloud-posttime">2023 / 10 / 19</time>
-            <span>瓷器工厂参观笔记</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>random</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/09/08/alle-reden-ueber-KI/">
-            <time class="tagcloud-posttime">2023 / 09 / 08</time>
-            <span>所有人都在谈论AI</span>
-          </a>
-        </div>
       
         <div class="tagcloud-post">
           <a href="/2023/08/21/housework-and-meditation/">
@@ -807,6 +670,100 @@
     </div>
   
     <div class="tagcloud-postlist ">
+      <h2>food</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/02/08/2023-new-year/">
+            <time class="tagcloud-posttime">2023 / 02 / 08</time>
+            <span>围炉过年</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2024/02/12/2024-new-year/">
+            <time class="tagcloud-posttime">2024 / 02 / 12</time>
+            <span>龙年新春，炉边再聚</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/10/20/fermentation-note/">
+            <time class="tagcloud-posttime">2023 / 10 / 20</time>
+            <span>匆匆写下的发酵年记，和一点新动向</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/05/01/fortune-desserts-2022-abC/">
+            <time class="tagcloud-posttime">2023 / 05 / 01</time>
+            <span>回顾2022abC《幸运甜点》</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2016/11/22/travel-of-tofu/">
+            <time class="tagcloud-posttime">2016 / 11 / 22</time>
+            <span>豆腐之旅</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2019/04/19/wanderer/">
+            <time class="tagcloud-posttime">2019 / 04 / 19</time>
+            <span>漫游者——日常物件中的发酵</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/12/11/vertical-farm-work-review/">
+            <time class="tagcloud-posttime">2023 / 12 / 11</time>
+            <span>垂直农业从业手纪</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>research</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2013/11/02/ninghai/">
+            <time class="tagcloud-posttime">2013 / 11 / 02</time>
+            <span>宁海红妆调研</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/10/20/fermentation-note/">
+            <time class="tagcloud-posttime">2023 / 10 / 20</time>
+            <span>匆匆写下的发酵年记，和一点新动向</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/05/01/fortune-desserts-2022-abC/">
+            <time class="tagcloud-posttime">2023 / 05 / 01</time>
+            <span>回顾2022abC《幸运甜点》</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2016/11/22/travel-of-tofu/">
+            <time class="tagcloud-posttime">2016 / 11 / 22</time>
+            <span>豆腐之旅</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2019/04/19/wanderer/">
+            <time class="tagcloud-posttime">2019 / 04 / 19</time>
+            <span>漫游者——日常物件中的发酵</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
       <h2>recipe</h2>
       
         <div class="tagcloud-post">
@@ -819,12 +776,57 @@
     </div>
   
     <div class="tagcloud-postlist ">
+      <h2>random</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/09/08/alle-reden-ueber-KI/">
+            <time class="tagcloud-posttime">2023 / 09 / 08</time>
+            <span>所有人都在谈论AI</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/08/21/housework-and-meditation/">
+            <time class="tagcloud-posttime">2023 / 08 / 21</time>
+            <span>家务之星&神游大王</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
       <h2>textile</h2>
       
         <div class="tagcloud-post">
           <a href="/2019/04/19/wanderer/">
             <time class="tagcloud-posttime">2019 / 04 / 19</time>
             <span>漫游者——日常物件中的发酵</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>note</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/04/17/2023-milan-design-week/">
+            <time class="tagcloud-posttime">2023 / 04 / 17</time>
+            <span>2023米兰设计周</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/06/19/blog-update/">
+            <time class="tagcloud-posttime">2023 / 06 / 19</time>
+            <span>周末的夜晚，可以用来折腾网站</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/10/19/porcelain-manufacturer-visit/">
+            <time class="tagcloud-posttime">2023 / 10 / 19</time>
+            <span>瓷器工厂参观笔记</span>
           </a>
         </div>
       

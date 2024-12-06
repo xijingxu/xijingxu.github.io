@@ -100,9 +100,9 @@
     
     <category term="food" scheme="http://blog.xijingxu.com/tags/food/"/>
     
-    <category term="fermentation" scheme="http://blog.xijingxu.com/tags/fermentation/"/>
-    
     <category term="research" scheme="http://blog.xijingxu.com/tags/research/"/>
+    
+    <category term="fermentation" scheme="http://blog.xijingxu.com/tags/fermentation/"/>
     
     <category term="news" scheme="http://blog.xijingxu.com/tags/news/"/>
     
@@ -123,9 +123,9 @@
     
     
     
-    <category term="note" scheme="http://blog.xijingxu.com/tags/note/"/>
-    
     <category term="design" scheme="http://blog.xijingxu.com/tags/design/"/>
+    
+    <category term="note" scheme="http://blog.xijingxu.com/tags/note/"/>
     
     <category term="manufacture" scheme="http://blog.xijingxu.com/tags/manufacture/"/>
     
@@ -167,9 +167,9 @@
     
     
     
-    <category term="art" scheme="http://blog.xijingxu.com/tags/art/"/>
-    
     <category term="random" scheme="http://blog.xijingxu.com/tags/random/"/>
+    
+    <category term="art" scheme="http://blog.xijingxu.com/tags/art/"/>
     
   </entry>
   
@@ -253,11 +253,11 @@
     
     
     
+    <category term="design" scheme="http://blog.xijingxu.com/tags/design/"/>
+    
     <category term="travel" scheme="http://blog.xijingxu.com/tags/travel/"/>
     
     <category term="note" scheme="http://blog.xijingxu.com/tags/note/"/>
-    
-    <category term="design" scheme="http://blog.xijingxu.com/tags/design/"/>
     
   </entry>
   

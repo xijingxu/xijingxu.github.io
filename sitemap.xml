@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xijingxu.com/404.html</loc>
+    
+    <lastmod>2024-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.xijingxu.com/2020/04/04/calendar-book/</loc>
     
     <lastmod>2024-12-06</lastmod>
@@ -164,15 +173,6 @@
   </url>
   
   <url>
-    <loc>http://blog.xijingxu.com/404.html</loc>
-    
-    <lastmod>2023-06-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.xijingxu.com/2022/12/29/tofoodesign-newsletter/</loc>
     
     <lastmod>2023-06-29</lastmod>
@@ -209,14 +209,7 @@
 
   
   <url>
-    <loc>http://blog.xijingxu.com/tags/travel/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/tags/note/</loc>
+    <loc>http://blog.xijingxu.com/tags/craft/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -230,7 +223,28 @@
   </url>
   
   <url>
+    <loc>http://blog.xijingxu.com/tags/travel/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/random/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.xijingxu.com/tags/food/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/research/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -244,14 +258,21 @@
   </url>
   
   <url>
-    <loc>http://blog.xijingxu.com/tags/community/</loc>
+    <loc>http://blog.xijingxu.com/tags/art/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.xijingxu.com/tags/art/</loc>
+    <loc>http://blog.xijingxu.com/tags/textile/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/community/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -272,21 +293,14 @@
   </url>
   
   <url>
+    <loc>http://blog.xijingxu.com/tags/note/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.xijingxu.com/tags/event/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/tags/craft/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/tags/random/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -300,6 +314,13 @@
   </url>
   
   <url>
+    <loc>http://blog.xijingxu.com/tags/website/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.xijingxu.com/tags/fermentation/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -307,21 +328,7 @@
   </url>
   
   <url>
-    <loc>http://blog.xijingxu.com/tags/research/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.xijingxu.com/tags/news/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/tags/website/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -336,13 +343,6 @@
   
   <url>
     <loc>http://blog.xijingxu.com/tags/newsletter/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/tags/textile/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

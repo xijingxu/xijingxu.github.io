@@ -83,9 +83,9 @@
             
             <tag> food </tag>
             
-            <tag> fermentation </tag>
-            
             <tag> research </tag>
+            
+            <tag> fermentation </tag>
             
             <tag> news </tag>
             
@@ -106,9 +106,9 @@
       
         <tags>
             
-            <tag> note </tag>
-            
             <tag> design </tag>
+            
+            <tag> note </tag>
             
             <tag> manufacture </tag>
             
@@ -150,9 +150,9 @@
       
         <tags>
             
-            <tag> art </tag>
-            
             <tag> random </tag>
+            
+            <tag> art </tag>
             
         </tags>
       
@@ -236,11 +236,11 @@
       
         <tags>
             
+            <tag> design </tag>
+            
             <tag> travel </tag>
             
             <tag> note </tag>
-            
-            <tag> design </tag>
             
         </tags>
       

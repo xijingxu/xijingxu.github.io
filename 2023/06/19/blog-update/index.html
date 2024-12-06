@@ -27,7 +27,7 @@
 
 
 
-<meta name="thumbnail" content="https://xijingxu.blog/image/favicon.png" />
+<meta name="thumbnail" content="https://blog.xijingxu.com/image/favicon.png" />
 
 
 
@@ -53,7 +53,7 @@
 <meta name="twitter:description" content="不是一篇建站心路历程" />
 
 
-<meta name="twitter:image" content="https://xijingxu.blog/image/favicon.png" />
+<meta name="twitter:image" content="https://blog.xijingxu.com/image/favicon.png" />
 
 
 <meta property="og:site_name" content="良说">
@@ -66,7 +66,7 @@
 <meta property="og:description" content="不是一篇建站心路历程" />
 
 
-<meta property="og:image" content="https://xijingxu.blog/image/favicon.png" />
+<meta property="og:image" content="https://blog.xijingxu.com/image/favicon.png" />
 
 
 <link rel="apple-touch-startup-image" media="(device-width: 375px)" href="assets/apple-launch-1125x2436.png">
@@ -346,10 +346,10 @@
 <h2 id="代码笔记"><a href="#代码笔记" class="headerlink" title="代码笔记"></a>代码笔记</h2><p>给记忆备份一下</p>
 <h3 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h3><h4 id="Meta"><a href="#Meta" class="headerlink" title="Meta"></a>Meta</h4><p>设置网站的基本meta信息，比如网站名、副标题、icon、网站描述、内容作者等，但同时也通过设置使每篇文章的描述以及文章标题也在meta信息中出现。</p>
 <p>在主题head文件的meta区域添加以下代码</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> page.keywords %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;keywords&quot;</span> content=<span class="string">&quot;&#123;&#123; page.keywords &#125;&#125;,&#123;&#123; config.keywords &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;keywords&quot;</span> content=<span class="string">&quot;&#123;&#123; config.keywords &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> page.description %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;description&quot;</span> content=<span class="string">&quot;&#123;&#123; page.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;description&quot;</span> content=<span class="string">&quot;&#123;&#123; config.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> page.thumbnail %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;thumbnail&quot;</span> content=<span class="string">&quot;&#123;&#123; page.thumbnail &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;thumbnail&quot;</span> content=<span class="string">&quot;https://xijingxu.blog/image/favicon.png&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> page.title %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;title&quot;</span> content=<span class="string">&quot;&#123;&#123; page.title &#125;&#125; | &#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;title&quot;</span> content=<span class="string">&quot;&#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> config.subtitle %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;subtitle&quot;</span> content=<span class="string">&quot;&#123;&#123; config.subtitle &#125;&#125;&quot;</span>&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> config.author %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;author&quot;</span> content=<span class="string">&quot;&#123;&#123; config.author &#125;&#125;&quot;</span>&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> page.keywords %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;keywords&quot;</span> content=<span class="string">&quot;&#123;&#123; page.keywords &#125;&#125;,&#123;&#123; config.keywords &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;keywords&quot;</span> content=<span class="string">&quot;&#123;&#123; config.keywords &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> page.description %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;description&quot;</span> content=<span class="string">&quot;&#123;&#123; page.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;description&quot;</span> content=<span class="string">&quot;&#123;&#123; config.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> page.thumbnail %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;thumbnail&quot;</span> content=<span class="string">&quot;&#123;&#123; page.thumbnail &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;thumbnail&quot;</span> content=<span class="string">&quot;https://blog.xijingxu.com/image/favicon.png&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> page.title %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;title&quot;</span> content=<span class="string">&quot;&#123;&#123; page.title &#125;&#125; | &#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;title&quot;</span> content=<span class="string">&quot;&#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> config.subtitle %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;subtitle&quot;</span> content=<span class="string">&quot;&#123;&#123; config.subtitle &#125;&#125;&quot;</span>&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% <span class="keyword">if</span> config.author %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;author&quot;</span> content=<span class="string">&quot;&#123;&#123; config.author &#125;&#125;&quot;</span>&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 
 <p>为不同的社交媒体分享卡设置抓取网站meta信息的接口。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta name=<span class="string">&quot;twitter:card&quot;</span> content=<span class="string">&quot;summary_large_image&quot;</span> /&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:site&quot;</span> content=<span class="string">&quot;&#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:creator&quot;</span> content=<span class="string">&quot;&#123;&#123; author &#125;&#125;&quot;</span>&gt;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.title %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:title&quot;</span> content=<span class="string">&quot;&#123;&#123; page.title &#125;&#125; | &#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:title&quot;</span> content=<span class="string">&quot;&#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.description %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:description&quot;</span> content=<span class="string">&quot;&#123;&#123; page.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:description&quot;</span> content=<span class="string">&quot;&#123;&#123; config.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.thumbnail %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:image&quot;</span> content=<span class="string">&quot;&#123;&#123; page.thumbnail &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:image&quot;</span> content=<span class="string">&quot;https://xijingxu.blog/image/favicon.png&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&lt;meta property=<span class="string">&quot;og:site_name&quot;</span> content=<span class="string">&quot;&#123;&#123; config.title &#125;&#125;&quot;</span>&gt;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.title %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:title&quot;</span> content=<span class="string">&quot;&#123;&#123; page.title &#125;&#125; | &#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:title&quot;</span> content=<span class="string">&quot;&#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:type&quot;</span> content=<span class="string">&quot;website&quot;</span> /&gt;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:locale&quot;</span> content=<span class="string">&quot;&#123;&#123; config.language &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.description %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:description&quot;</span> content=<span class="string">&quot;&#123;&#123; page.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:description&quot;</span> content=<span class="string">&quot;&#123;&#123; config.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.thumbnail %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:image&quot;</span> content=<span class="string">&quot;&#123;&#123; page.thumbnail &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:image&quot;</span> content=<span class="string">&quot;https://xijingxu.blog/image/favicon.png&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta name=<span class="string">&quot;twitter:card&quot;</span> content=<span class="string">&quot;summary_large_image&quot;</span> /&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:site&quot;</span> content=<span class="string">&quot;&#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:creator&quot;</span> content=<span class="string">&quot;&#123;&#123; author &#125;&#125;&quot;</span>&gt;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.title %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:title&quot;</span> content=<span class="string">&quot;&#123;&#123; page.title &#125;&#125; | &#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:title&quot;</span> content=<span class="string">&quot;&#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.description %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:description&quot;</span> content=<span class="string">&quot;&#123;&#123; page.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:description&quot;</span> content=<span class="string">&quot;&#123;&#123; config.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.thumbnail %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:image&quot;</span> content=<span class="string">&quot;&#123;&#123; page.thumbnail &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta name=<span class="string">&quot;twitter:image&quot;</span> content=<span class="string">&quot;https://blog.xijingxu.com/image/favicon.png&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">&lt;meta property=<span class="string">&quot;og:site_name&quot;</span> content=<span class="string">&quot;&#123;&#123; config.title &#125;&#125;&quot;</span>&gt;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.title %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:title&quot;</span> content=<span class="string">&quot;&#123;&#123; page.title &#125;&#125; | &#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:title&quot;</span> content=<span class="string">&quot;&#123;&#123; config.title &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:type&quot;</span> content=<span class="string">&quot;website&quot;</span> /&gt;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:locale&quot;</span> content=<span class="string">&quot;&#123;&#123; config.language &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.description %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:description&quot;</span> content=<span class="string">&quot;&#123;&#123; page.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:description&quot;</span> content=<span class="string">&quot;&#123;&#123; config.description &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line">&#123;% <span class="keyword">if</span> page.thumbnail %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:image&quot;</span> content=<span class="string">&quot;&#123;&#123; page.thumbnail &#125;&#125;&quot;</span> /&gt;</span><br><span class="line">&#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">&lt;meta property=<span class="string">&quot;og:image&quot;</span> content=<span class="string">&quot;https://blog.xijingxu.com/image/favicon.png&quot;</span> /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 
 
 
@@ -516,14 +516,6 @@
     </div>
   
     <div class="tagcloud-tag">
-      <button>event</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>craft</button>
-    </div>
-  
-    <div class="tagcloud-tag">
       <button>art</button>
     </div>
   
@@ -536,7 +528,11 @@
     </div>
   
     <div class="tagcloud-tag">
-      <button>website</button>
+      <button>event</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>craft</button>
     </div>
   
     <div class="tagcloud-tag">
@@ -548,7 +544,19 @@
     </div>
   
     <div class="tagcloud-tag">
+      <button>fermentation</button>
+    </div>
+  
+    <div class="tagcloud-tag">
       <button>research</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>news</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>website</button>
     </div>
   
     <div class="tagcloud-tag">
@@ -561,14 +569,6 @@
   
     <div class="tagcloud-tag">
       <button>textile</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>fermentation</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>news</button>
     </div>
   
   </div>
@@ -591,16 +591,16 @@
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2016/11/22/travel-of-tofu/">
-            <time class="tagcloud-posttime">2016 / 11 / 22</time>
-            <span>豆腐之旅</span>
+          <a href="/2023/07/13/rencontres-arles/">
+            <time class="tagcloud-posttime">2023 / 07 / 13</time>
+            <span>阿尔勒游记</span>
           </a>
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2023/07/13/rencontres-arles/">
-            <time class="tagcloud-posttime">2023 / 07 / 13</time>
-            <span>阿尔勒游记</span>
+          <a href="/2016/11/22/travel-of-tofu/">
+            <time class="tagcloud-posttime">2016 / 11 / 22</time>
+            <span>豆腐之旅</span>
           </a>
         </div>
       
@@ -690,16 +690,16 @@
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2023/05/01/fortune-desserts-2022-abC/">
-            <time class="tagcloud-posttime">2023 / 05 / 01</time>
-            <span>回顾2022abC《幸运甜点》</span>
+          <a href="/2023/10/20/fermentation-note/">
+            <time class="tagcloud-posttime">2023 / 10 / 20</time>
+            <span>匆匆写下的发酵年记，和一点新动向</span>
           </a>
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2016/11/22/travel-of-tofu/">
-            <time class="tagcloud-posttime">2016 / 11 / 22</time>
-            <span>豆腐之旅</span>
+          <a href="/2023/05/01/fortune-desserts-2022-abC/">
+            <time class="tagcloud-posttime">2023 / 05 / 01</time>
+            <span>回顾2022abC《幸运甜点》</span>
           </a>
         </div>
       
@@ -711,16 +711,16 @@
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2023/12/11/vertical-farm-work-review/">
-            <time class="tagcloud-posttime">2023 / 12 / 11</time>
-            <span>垂直农业从业手纪</span>
+          <a href="/2016/11/22/travel-of-tofu/">
+            <time class="tagcloud-posttime">2016 / 11 / 22</time>
+            <span>豆腐之旅</span>
           </a>
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2023/10/20/fermentation-note/">
-            <time class="tagcloud-posttime">2023 / 10 / 20</time>
-            <span>匆匆写下的发酵年记，和一点新动向</span>
+          <a href="/2023/12/11/vertical-farm-work-review/">
+            <time class="tagcloud-posttime">2023 / 12 / 11</time>
+            <span>垂直农业从业手纪</span>
           </a>
         </div>
       
@@ -752,37 +752,6 @@
           <a href="/2024/02/12/2024-new-year/">
             <time class="tagcloud-posttime">2024 / 02 / 12</time>
             <span>龙年新春，炉边再聚</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>event</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2024/02/12/2024-new-year/">
-            <time class="tagcloud-posttime">2024 / 02 / 12</time>
-            <span>龙年新春，炉边再聚</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>craft</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2020/06/23/Zimmerumbau/">
-            <time class="tagcloud-posttime">2020 / 06 / 23</time>
-            <span>睡房重置计划</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2020/04/04/calendar-book/">
-            <time class="tagcloud-posttime">2020 / 04 / 04</time>
-            <span>给自己做了2020年的日程本</span>
           </a>
         </div>
       
@@ -832,12 +801,31 @@
     </div>
   
     <div class="tagcloud-postlist ">
-      <h2>website</h2>
+      <h2>event</h2>
       
         <div class="tagcloud-post">
-          <a href="/2023/06/19/blog-update/">
-            <time class="tagcloud-posttime">2023 / 06 / 19</time>
-            <span>周末的夜晚，可以用来折腾网站</span>
+          <a href="/2024/02/12/2024-new-year/">
+            <time class="tagcloud-posttime">2024 / 02 / 12</time>
+            <span>龙年新春，炉边再聚</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>craft</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/06/23/Zimmerumbau/">
+            <time class="tagcloud-posttime">2020 / 06 / 23</time>
+            <span>睡房重置计划</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/04/04/calendar-book/">
+            <time class="tagcloud-posttime">2020 / 04 / 04</time>
+            <span>给自己做了2020年的日程本</span>
           </a>
         </div>
       
@@ -882,7 +870,26 @@
     </div>
   
     <div class="tagcloud-postlist ">
+      <h2>fermentation</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/10/20/fermentation-note/">
+            <time class="tagcloud-posttime">2023 / 10 / 20</time>
+            <span>匆匆写下的发酵年记，和一点新动向</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
       <h2>research</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/10/20/fermentation-note/">
+            <time class="tagcloud-posttime">2023 / 10 / 20</time>
+            <span>匆匆写下的发酵年记，和一点新动向</span>
+          </a>
+        </div>
       
         <div class="tagcloud-post">
           <a href="/2023/05/01/fortune-desserts-2022-abC/">
@@ -899,13 +906,6 @@
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2016/11/22/travel-of-tofu/">
-            <time class="tagcloud-posttime">2016 / 11 / 22</time>
-            <span>豆腐之旅</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
           <a href="/2019/04/19/wanderer/">
             <time class="tagcloud-posttime">2019 / 04 / 19</time>
             <span>漫游者——日常物件中的发酵</span>
@@ -913,9 +913,33 @@
         </div>
       
         <div class="tagcloud-post">
+          <a href="/2016/11/22/travel-of-tofu/">
+            <time class="tagcloud-posttime">2016 / 11 / 22</time>
+            <span>豆腐之旅</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>news</h2>
+      
+        <div class="tagcloud-post">
           <a href="/2023/10/20/fermentation-note/">
             <time class="tagcloud-posttime">2023 / 10 / 20</time>
             <span>匆匆写下的发酵年记，和一点新动向</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>website</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/06/19/blog-update/">
+            <time class="tagcloud-posttime">2023 / 06 / 19</time>
+            <span>周末的夜晚，可以用来折腾网站</span>
           </a>
         </div>
       
@@ -952,30 +976,6 @@
           <a href="/2019/04/19/wanderer/">
             <time class="tagcloud-posttime">2019 / 04 / 19</time>
             <span>漫游者——日常物件中的发酵</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>fermentation</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/10/20/fermentation-note/">
-            <time class="tagcloud-posttime">2023 / 10 / 20</time>
-            <span>匆匆写下的发酵年记，和一点新动向</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>news</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/10/20/fermentation-note/">
-            <time class="tagcloud-posttime">2023 / 10 / 20</time>
-            <span>匆匆写下的发酵年记，和一点新动向</span>
           </a>
         </div>
       

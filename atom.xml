@@ -6,7 +6,7 @@
   <link href="http://blog.xijingxu.com/atom.xml" rel="self"/>
   
   <link href="http://blog.xijingxu.com/"/>
-  <updated>2024-09-08T12:21:23.354Z</updated>
+  <updated>2024-12-06T15:09:39.221Z</updated>
   <id>http://blog.xijingxu.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>域名更新</title>
+    <link href="http://blog.xijingxu.com/2024/12/06/2024-domain-update/"/>
+    <id>http://blog.xijingxu.com/2024/12/06/2024-domain-update/</id>
+    <published>2024-12-05T23:00:00.000Z</published>
+    <updated>2024-12-06T15:09:39.221Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>今年发生了很多很多事情，八月开始几乎一直在路上。好不容易在圣诞前夕挤出来一点时间在电脑前坐下，想着应该是时候总结总结过去几个月见到的人与事与地方了，没想到做的第一件事竟然只是更新了个域名，给来年的自己省掉20几欧。</p><p>于是乎赶紧蹦哒上来嚎叫一声，网站地址由xijingxu.blog换成<a href="https://blog.xijingxu.com/">blog.xijingxu.com</a>啦，还请各位赛博友邻和路过的网友惠存！</p>]]></content>
+    
+    
+    <summary type="html">网站域名更新了</summary>
+    
+    
+    
+    
+    <category term="website" scheme="http://blog.xijingxu.com/tags/website/"/>
+    
+  </entry>
   
   <entry>
     <title>草蜢周二</title>

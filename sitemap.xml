@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xijingxu.com/2024/12/06/2024-domain-update/</loc>
+    
+    <lastmod>2024-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/About/index.html</loc>
+    
+    <lastmod>2024-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.xijingxu.com/404.html</loc>
     
     <lastmod>2024-12-06</lastmod>
@@ -21,15 +39,6 @@
   
   <url>
     <loc>http://blog.xijingxu.com/2023/07/13/rencontres-arles/</loc>
-    
-    <lastmod>2024-12-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/About/index.html</loc>
     
     <lastmod>2024-12-06</lastmod>
     

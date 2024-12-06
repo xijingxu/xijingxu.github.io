@@ -3,11 +3,11 @@
   <title>良说</title>
   
   <subtitle>溪婧的博客</subtitle>
-  <link href="http://blog.xijingxu.com/atom.xml" rel="self"/>
+  <link href="http://xijingxu.blog/atom.xml" rel="self"/>
   
-  <link href="http://blog.xijingxu.com/"/>
+  <link href="http://xijingxu.blog/"/>
   <updated>2024-09-08T12:21:23.354Z</updated>
-  <id>http://blog.xijingxu.com/</id>
+  <id>http://xijingxu.blog/</id>
   
   <author>
     <name>溪婧</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>草蜢周二</title>
-    <link href="http://blog.xijingxu.com/2024/09/08/2024-Unverdient/"/>
-    <id>http://blog.xijingxu.com/2024/09/08/2024-Unverdient/</id>
+    <link href="http://xijingxu.blog/2024/09/08/2024-Unverdient/"/>
+    <id>http://xijingxu.blog/2024/09/08/2024-Unverdient/</id>
     <published>2024-09-07T22:00:00.000Z</published>
     <updated>2024-09-08T12:21:23.354Z</updated>
     
@@ -31,18 +31,18 @@
     
     
     
-    <category term="art" scheme="http://blog.xijingxu.com/tags/art/"/>
+    <category term="art" scheme="http://xijingxu.blog/tags/art/"/>
     
-    <category term="theater" scheme="http://blog.xijingxu.com/tags/theater/"/>
+    <category term="theater" scheme="http://xijingxu.blog/tags/theater/"/>
     
-    <category term="performance" scheme="http://blog.xijingxu.com/tags/performance/"/>
+    <category term="performance" scheme="http://xijingxu.blog/tags/performance/"/>
     
   </entry>
   
   <entry>
     <title>龙年新春，炉边再聚</title>
-    <link href="http://blog.xijingxu.com/2024/02/12/2024-new-year/"/>
-    <id>http://blog.xijingxu.com/2024/02/12/2024-new-year/</id>
+    <link href="http://xijingxu.blog/2024/02/12/2024-new-year/"/>
+    <id>http://xijingxu.blog/2024/02/12/2024-new-year/</id>
     <published>2024-02-11T23:00:00.000Z</published>
     <updated>2024-09-14T02:37:26.166Z</updated>
     
@@ -54,18 +54,18 @@
     
     
     
-    <category term="food" scheme="http://blog.xijingxu.com/tags/food/"/>
+    <category term="food" scheme="http://xijingxu.blog/tags/food/"/>
     
-    <category term="community" scheme="http://blog.xijingxu.com/tags/community/"/>
+    <category term="community" scheme="http://xijingxu.blog/tags/community/"/>
     
-    <category term="event" scheme="http://blog.xijingxu.com/tags/event/"/>
+    <category term="event" scheme="http://xijingxu.blog/tags/event/"/>
     
   </entry>
   
   <entry>
     <title>垂直农业从业手纪</title>
-    <link href="http://blog.xijingxu.com/2023/12/11/vertical-farm-work-review/"/>
-    <id>http://blog.xijingxu.com/2023/12/11/vertical-farm-work-review/</id>
+    <link href="http://xijingxu.blog/2023/12/11/vertical-farm-work-review/"/>
+    <id>http://xijingxu.blog/2023/12/11/vertical-farm-work-review/</id>
     <published>2023-12-10T23:00:00.000Z</published>
     <updated>2024-05-28T20:19:25.873Z</updated>
     
@@ -77,16 +77,16 @@
     
     
     
-    <category term="food" scheme="http://blog.xijingxu.com/tags/food/"/>
+    <category term="food" scheme="http://xijingxu.blog/tags/food/"/>
     
-    <category term="design" scheme="http://blog.xijingxu.com/tags/design/"/>
+    <category term="design" scheme="http://xijingxu.blog/tags/design/"/>
     
   </entry>
   
   <entry>
     <title>匆匆写下的发酵年记，和一点新动向</title>
-    <link href="http://blog.xijingxu.com/2023/10/20/fermentation-note/"/>
-    <id>http://blog.xijingxu.com/2023/10/20/fermentation-note/</id>
+    <link href="http://xijingxu.blog/2023/10/20/fermentation-note/"/>
+    <id>http://xijingxu.blog/2023/10/20/fermentation-note/</id>
     <published>2023-10-19T22:00:00.000Z</published>
     <updated>2023-12-11T17:36:43.109Z</updated>
     
@@ -98,20 +98,20 @@
     
     
     
-    <category term="food" scheme="http://blog.xijingxu.com/tags/food/"/>
+    <category term="food" scheme="http://xijingxu.blog/tags/food/"/>
     
-    <category term="fermentation" scheme="http://blog.xijingxu.com/tags/fermentation/"/>
+    <category term="fermentation" scheme="http://xijingxu.blog/tags/fermentation/"/>
     
-    <category term="research" scheme="http://blog.xijingxu.com/tags/research/"/>
+    <category term="research" scheme="http://xijingxu.blog/tags/research/"/>
     
-    <category term="news" scheme="http://blog.xijingxu.com/tags/news/"/>
+    <category term="news" scheme="http://xijingxu.blog/tags/news/"/>
     
   </entry>
   
   <entry>
     <title>瓷器工厂参观笔记</title>
-    <link href="http://blog.xijingxu.com/2023/10/19/porcelain-manufacturer-visit/"/>
-    <id>http://blog.xijingxu.com/2023/10/19/porcelain-manufacturer-visit/</id>
+    <link href="http://xijingxu.blog/2023/10/19/porcelain-manufacturer-visit/"/>
+    <id>http://xijingxu.blog/2023/10/19/porcelain-manufacturer-visit/</id>
     <published>2023-10-18T22:00:00.000Z</published>
     <updated>2024-05-26T00:43:24.876Z</updated>
     
@@ -123,18 +123,18 @@
     
     
     
-    <category term="note" scheme="http://blog.xijingxu.com/tags/note/"/>
+    <category term="note" scheme="http://xijingxu.blog/tags/note/"/>
     
-    <category term="design" scheme="http://blog.xijingxu.com/tags/design/"/>
+    <category term="design" scheme="http://xijingxu.blog/tags/design/"/>
     
-    <category term="manufacture" scheme="http://blog.xijingxu.com/tags/manufacture/"/>
+    <category term="manufacture" scheme="http://xijingxu.blog/tags/manufacture/"/>
     
   </entry>
   
   <entry>
     <title>所有人都在谈论AI</title>
-    <link href="http://blog.xijingxu.com/2023/09/08/alle-reden-ueber-KI/"/>
-    <id>http://blog.xijingxu.com/2023/09/08/alle-reden-ueber-KI/</id>
+    <link href="http://xijingxu.blog/2023/09/08/alle-reden-ueber-KI/"/>
+    <id>http://xijingxu.blog/2023/09/08/alle-reden-ueber-KI/</id>
     <published>2023-09-07T22:00:00.000Z</published>
     <updated>2023-10-19T20:00:26.689Z</updated>
     
@@ -146,16 +146,16 @@
     
     
     
-    <category term="random" scheme="http://blog.xijingxu.com/tags/random/"/>
+    <category term="random" scheme="http://xijingxu.blog/tags/random/"/>
     
-    <category term="photography" scheme="http://blog.xijingxu.com/tags/photography/"/>
+    <category term="photography" scheme="http://xijingxu.blog/tags/photography/"/>
     
   </entry>
   
   <entry>
     <title>家务之星&amp;神游大王</title>
-    <link href="http://blog.xijingxu.com/2023/08/21/housework-and-meditation/"/>
-    <id>http://blog.xijingxu.com/2023/08/21/housework-and-meditation/</id>
+    <link href="http://xijingxu.blog/2023/08/21/housework-and-meditation/"/>
+    <id>http://xijingxu.blog/2023/08/21/housework-and-meditation/</id>
     <published>2023-08-20T22:00:00.000Z</published>
     <updated>2023-10-19T20:00:55.808Z</updated>
     
@@ -167,16 +167,16 @@
     
     
     
-    <category term="art" scheme="http://blog.xijingxu.com/tags/art/"/>
+    <category term="art" scheme="http://xijingxu.blog/tags/art/"/>
     
-    <category term="random" scheme="http://blog.xijingxu.com/tags/random/"/>
+    <category term="random" scheme="http://xijingxu.blog/tags/random/"/>
     
   </entry>
   
   <entry>
     <title>阿尔勒游记</title>
-    <link href="http://blog.xijingxu.com/2023/07/13/rencontres-arles/"/>
-    <id>http://blog.xijingxu.com/2023/07/13/rencontres-arles/</id>
+    <link href="http://xijingxu.blog/2023/07/13/rencontres-arles/"/>
+    <id>http://xijingxu.blog/2023/07/13/rencontres-arles/</id>
     <published>2023-07-12T22:00:00.000Z</published>
     <updated>2023-10-19T23:08:41.147Z</updated>
     
@@ -188,16 +188,16 @@
     
     
     
-    <category term="travel" scheme="http://blog.xijingxu.com/tags/travel/"/>
+    <category term="travel" scheme="http://xijingxu.blog/tags/travel/"/>
     
-    <category term="photography" scheme="http://blog.xijingxu.com/tags/photography/"/>
+    <category term="photography" scheme="http://xijingxu.blog/tags/photography/"/>
     
   </entry>
   
   <entry>
     <title>周末的夜晚，可以用来折腾网站</title>
-    <link href="http://blog.xijingxu.com/2023/06/19/blog-update/"/>
-    <id>http://blog.xijingxu.com/2023/06/19/blog-update/</id>
+    <link href="http://xijingxu.blog/2023/06/19/blog-update/"/>
+    <id>http://xijingxu.blog/2023/06/19/blog-update/</id>
     <published>2023-06-18T22:00:00.000Z</published>
     <updated>2024-05-26T11:42:17.961Z</updated>
     
@@ -209,16 +209,16 @@
     
     
     
-    <category term="note" scheme="http://blog.xijingxu.com/tags/note/"/>
+    <category term="note" scheme="http://xijingxu.blog/tags/note/"/>
     
-    <category term="website" scheme="http://blog.xijingxu.com/tags/website/"/>
+    <category term="website" scheme="http://xijingxu.blog/tags/website/"/>
     
   </entry>
   
   <entry>
     <title>回顾2022abC《幸运甜点》</title>
-    <link href="http://blog.xijingxu.com/2023/05/01/fortune-desserts-2022-abC/"/>
-    <id>http://blog.xijingxu.com/2023/05/01/fortune-desserts-2022-abC/</id>
+    <link href="http://xijingxu.blog/2023/05/01/fortune-desserts-2022-abC/"/>
+    <id>http://xijingxu.blog/2023/05/01/fortune-desserts-2022-abC/</id>
     <published>2023-04-30T22:00:00.000Z</published>
     <updated>2023-10-19T21:05:13.417Z</updated>
     
@@ -230,18 +230,18 @@
     
     
     
-    <category term="food" scheme="http://blog.xijingxu.com/tags/food/"/>
+    <category term="food" scheme="http://xijingxu.blog/tags/food/"/>
     
-    <category term="design" scheme="http://blog.xijingxu.com/tags/design/"/>
+    <category term="design" scheme="http://xijingxu.blog/tags/design/"/>
     
-    <category term="research" scheme="http://blog.xijingxu.com/tags/research/"/>
+    <category term="research" scheme="http://xijingxu.blog/tags/research/"/>
     
   </entry>
   
   <entry>
     <title>2023米兰设计周</title>
-    <link href="http://blog.xijingxu.com/2023/04/17/2023-milan-design-week/"/>
-    <id>http://blog.xijingxu.com/2023/04/17/2023-milan-design-week/</id>
+    <link href="http://xijingxu.blog/2023/04/17/2023-milan-design-week/"/>
+    <id>http://xijingxu.blog/2023/04/17/2023-milan-design-week/</id>
     <published>2023-04-16T22:00:00.000Z</published>
     <updated>2023-10-19T21:05:22.057Z</updated>
     
@@ -253,18 +253,18 @@
     
     
     
-    <category term="travel" scheme="http://blog.xijingxu.com/tags/travel/"/>
+    <category term="travel" scheme="http://xijingxu.blog/tags/travel/"/>
     
-    <category term="note" scheme="http://blog.xijingxu.com/tags/note/"/>
+    <category term="note" scheme="http://xijingxu.blog/tags/note/"/>
     
-    <category term="design" scheme="http://blog.xijingxu.com/tags/design/"/>
+    <category term="design" scheme="http://xijingxu.blog/tags/design/"/>
     
   </entry>
   
   <entry>
     <title>围炉过年</title>
-    <link href="http://blog.xijingxu.com/2023/02/08/2023-new-year/"/>
-    <id>http://blog.xijingxu.com/2023/02/08/2023-new-year/</id>
+    <link href="http://xijingxu.blog/2023/02/08/2023-new-year/"/>
+    <id>http://xijingxu.blog/2023/02/08/2023-new-year/</id>
     <published>2023-02-08T13:09:12.894Z</published>
     <updated>2023-10-04T08:02:38.282Z</updated>
     
@@ -276,18 +276,18 @@
     
     
     
-    <category term="food" scheme="http://blog.xijingxu.com/tags/food/"/>
+    <category term="food" scheme="http://xijingxu.blog/tags/food/"/>
     
-    <category term="community" scheme="http://blog.xijingxu.com/tags/community/"/>
+    <category term="community" scheme="http://xijingxu.blog/tags/community/"/>
     
-    <category term="recipe" scheme="http://blog.xijingxu.com/tags/recipe/"/>
+    <category term="recipe" scheme="http://xijingxu.blog/tags/recipe/"/>
     
   </entry>
   
   <entry>
     <title>来自2022年末的邮件</title>
-    <link href="http://blog.xijingxu.com/2022/12/29/tofoodesign-newsletter/"/>
-    <id>http://blog.xijingxu.com/2022/12/29/tofoodesign-newsletter/</id>
+    <link href="http://xijingxu.blog/2022/12/29/tofoodesign-newsletter/"/>
+    <id>http://xijingxu.blog/2022/12/29/tofoodesign-newsletter/</id>
     <published>2022-12-29T17:35:22.000Z</published>
     <updated>2023-06-29T14:40:05.419Z</updated>
     
@@ -299,14 +299,14 @@
     
     
     
-    <category term="newsletter" scheme="http://blog.xijingxu.com/tags/newsletter/"/>
+    <category term="newsletter" scheme="http://xijingxu.blog/tags/newsletter/"/>
     
   </entry>
   
   <entry>
     <title>睡房重置计划</title>
-    <link href="http://blog.xijingxu.com/2020/06/23/Zimmerumbau/"/>
-    <id>http://blog.xijingxu.com/2020/06/23/Zimmerumbau/</id>
+    <link href="http://xijingxu.blog/2020/06/23/Zimmerumbau/"/>
+    <id>http://xijingxu.blog/2020/06/23/Zimmerumbau/</id>
     <published>2020-06-23T09:33:51.000Z</published>
     <updated>2023-10-04T08:02:24.378Z</updated>
     
@@ -318,14 +318,14 @@
     
     
     
-    <category term="craft" scheme="http://blog.xijingxu.com/tags/craft/"/>
+    <category term="craft" scheme="http://xijingxu.blog/tags/craft/"/>
     
   </entry>
   
   <entry>
     <title>给自己做了2020年的日程本</title>
-    <link href="http://blog.xijingxu.com/2020/04/04/calendar-book/"/>
-    <id>http://blog.xijingxu.com/2020/04/04/calendar-book/</id>
+    <link href="http://xijingxu.blog/2020/04/04/calendar-book/"/>
+    <id>http://xijingxu.blog/2020/04/04/calendar-book/</id>
     <published>2020-04-04T09:37:10.000Z</published>
     <updated>2023-10-04T08:01:28.996Z</updated>
     
@@ -337,14 +337,14 @@
     
     
     
-    <category term="craft" scheme="http://blog.xijingxu.com/tags/craft/"/>
+    <category term="craft" scheme="http://xijingxu.blog/tags/craft/"/>
     
   </entry>
   
   <entry>
     <title>漫游者——日常物件中的发酵</title>
-    <link href="http://blog.xijingxu.com/2019/04/19/wanderer/"/>
-    <id>http://blog.xijingxu.com/2019/04/19/wanderer/</id>
+    <link href="http://xijingxu.blog/2019/04/19/wanderer/"/>
+    <id>http://xijingxu.blog/2019/04/19/wanderer/</id>
     <published>2019-04-19T19:27:49.000Z</published>
     <updated>2023-10-04T08:02:08.764Z</updated>
     
@@ -356,20 +356,20 @@
     
     
     
-    <category term="food" scheme="http://blog.xijingxu.com/tags/food/"/>
+    <category term="food" scheme="http://xijingxu.blog/tags/food/"/>
     
-    <category term="design" scheme="http://blog.xijingxu.com/tags/design/"/>
+    <category term="design" scheme="http://xijingxu.blog/tags/design/"/>
     
-    <category term="research" scheme="http://blog.xijingxu.com/tags/research/"/>
+    <category term="research" scheme="http://xijingxu.blog/tags/research/"/>
     
-    <category term="textile" scheme="http://blog.xijingxu.com/tags/textile/"/>
+    <category term="textile" scheme="http://xijingxu.blog/tags/textile/"/>
     
   </entry>
   
   <entry>
     <title>豆腐之旅</title>
-    <link href="http://blog.xijingxu.com/2016/11/22/travel-of-tofu/"/>
-    <id>http://blog.xijingxu.com/2016/11/22/travel-of-tofu/</id>
+    <link href="http://xijingxu.blog/2016/11/22/travel-of-tofu/"/>
+    <id>http://xijingxu.blog/2016/11/22/travel-of-tofu/</id>
     <published>2016-11-22T21:30:46.000Z</published>
     <updated>2023-10-04T08:02:16.453Z</updated>
     
@@ -381,18 +381,18 @@
     
     
     
-    <category term="food" scheme="http://blog.xijingxu.com/tags/food/"/>
+    <category term="food" scheme="http://xijingxu.blog/tags/food/"/>
     
-    <category term="travel" scheme="http://blog.xijingxu.com/tags/travel/"/>
+    <category term="travel" scheme="http://xijingxu.blog/tags/travel/"/>
     
-    <category term="research" scheme="http://blog.xijingxu.com/tags/research/"/>
+    <category term="research" scheme="http://xijingxu.blog/tags/research/"/>
     
   </entry>
   
   <entry>
     <title>宁海红妆调研</title>
-    <link href="http://blog.xijingxu.com/2013/11/02/ninghai/"/>
-    <id>http://blog.xijingxu.com/2013/11/02/ninghai/</id>
+    <link href="http://xijingxu.blog/2013/11/02/ninghai/"/>
+    <id>http://xijingxu.blog/2013/11/02/ninghai/</id>
     <published>2013-11-02T10:37:10.000Z</published>
     <updated>2023-06-29T13:55:13.187Z</updated>
     
@@ -404,9 +404,9 @@
     
     
     
-    <category term="travel" scheme="http://blog.xijingxu.com/tags/travel/"/>
+    <category term="travel" scheme="http://xijingxu.blog/tags/travel/"/>
     
-    <category term="research" scheme="http://blog.xijingxu.com/tags/research/"/>
+    <category term="research" scheme="http://xijingxu.blog/tags/research/"/>
     
   </entry>
   

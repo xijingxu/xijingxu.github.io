@@ -1,3 +1,22 @@
+.hover-popup {
+  position: relative;
+  display: inline-block; /* 确保元素为行内块级，以便定位 */
+  cursor: pointer; /* 鼠标悬停时显示手型光标 */
+}
+.hover-popup .popup-image {
+  display: none; /* 初始状态下隐藏图片 */
+  position: absolute;
+  top: 100%; /* 图片出现在元素的下方 */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px; /* 图片与元素之间的距离 */
+  width: 200px; /* 根据需要调整图片宽度 */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* 添加阴影效果 */
+  z-index: 10; /* 确保图片位于其他元素之上 */
+}
+.hover-popup:hover .popup-image {
+  display: block; /* 鼠标悬停时显示图片 */
+}
 /* normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;

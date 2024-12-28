@@ -7,7 +7,7 @@
   display: none; /* 初始状态下隐藏图片 */
   position: absolute;
   top: 100%; /* 图片出现在元素的下方 */
-  left: 100%;
+  left: 250%;
   transform: translateX(-50%);
   margin-top: 10px; /* 图片与元素之间的距离 */
   width: 250px; /* 根据需要调整图片宽度 */
@@ -16,6 +16,25 @@
 }
 .hover-popup:hover .popup-image {
   display: block; /* 鼠标悬停时显示图片 */
+}
+.responsive-container {
+  display: flex;
+  flex-wrap: wrap; /* 允许子元素换行 */
+  gap: 16px; /* 列之间的间距 */
+}
+.column {
+  flex: 1; /* 每列平分宽度 */
+  min-width: 300px; /* 设置列的最小宽度 */
+  padding: 12px;
+}
+@media (max-width: 768px) {
+  .responsive-container {
+    flex-direction: column; /* 改为垂直排列 */
+  }
+  .column {
+    flex: none;
+    width: 100%; /* 占满可用宽度 */
+  }
 }
 /* normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {

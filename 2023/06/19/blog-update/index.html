@@ -361,6 +361,33 @@
 <h4 id="单篇博文密码访问"><a href="#单篇博文密码访问" class="headerlink" title="单篇博文密码访问"></a>单篇博文密码访问</h4><p>Front-matter</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">password:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">abstract:</span> <span class="string">输入密码显示文章</span></span><br><span class="line"><span class="attr">wrong_pass_message:</span> <span class="string">密码错误</span></span><br></pre></td></tr></table></figure>
 
+
+
+<h4 id="鼠标悬浮图片悬停"><a href="#鼠标悬浮图片悬停" class="headerlink" title="鼠标悬浮图片悬停"></a>鼠标悬浮图片悬停</h4><p>.&#x2F;themes&#x2F;Nlvi&#x2F;source&#x2F;style&#x2F;_xijing&#x2F;support.styl</p>
+<p>.&#x2F;themes&#x2F;Nlvi&#x2F;source&#x2F;style&#x2F;style.styl</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;hover-image-container&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>鼠标悬停查看图片<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;hover-image&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;图片链接&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;弹出图片&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>Hover-image-container </p>
+<p>Hover-image</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.hover-image-container</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.hover-image-container</span> <span class="selector-class">.hover-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">100%</span>; <span class="comment">/* 根据需要调整位置 */</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">50%</span>);</span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">10</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">4px</span> <span class="number">8px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.1</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.hover-image-container</span><span class="selector-pseudo">:hover</span> <span class="selector-class">.hover-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.hover-image</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">200px</span>; <span class="comment">/* 限制图片宽度 */</span></span><br><span class="line">  <span class="attribute">height</span>: auto;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h4 id="响应式双列布局"><a href="#响应式双列布局" class="headerlink" title="响应式双列布局"></a>响应式双列布局</h4><p>.&#x2F;themes&#x2F;Nlvi&#x2F;source&#x2F;style&#x2F;_xijing&#x2F;flexbox.styl</p>
+<p>.&#x2F;themes&#x2F;Nlvi&#x2F;source&#x2F;style&#x2F;style.styl</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;responsive-container&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;column&quot;</span>&gt;</span>内容 1<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;column&quot;</span>&gt;</span>内容 2<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>Flexbox</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 母容器设置为 Flexbox 布局 */</span></span><br><span class="line"><span class="selector-class">.responsive-container</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">flex-wrap</span>: wrap; <span class="comment">/* 允许子元素换行 */</span></span><br><span class="line">  <span class="attribute">gap</span>: <span class="number">16px</span>; <span class="comment">/* 列之间的间距 */</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 子元素默认宽度 */</span></span><br><span class="line"><span class="selector-class">.column</span> &#123;</span><br><span class="line">  <span class="attribute">flex</span>: <span class="number">1</span>; <span class="comment">/* 每列平分宽度 */</span></span><br><span class="line">  <span class="attribute">min-width</span>: <span class="number">300px</span>; <span class="comment">/* 设置列的最小宽度 */</span></span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">16px</span>;</span><br><span class="line">  <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#f4f4f4</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ddd</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 移动端布局：单列 */</span></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">768px</span>) &#123;</span><br><span class="line">  <span class="selector-class">.responsive-container</span> &#123;</span><br><span class="line">    <span class="attribute">flex-direction</span>: column; <span class="comment">/* 改为垂直排列 */</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-class">.column</span> &#123;</span><br><span class="line">    <span class="attribute">flex</span>: none;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>; <span class="comment">/* 占满可用宽度 */</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
 <h4 id="待修改-x2F-资料参考"><a href="#待修改-x2F-资料参考" class="headerlink" title="待修改&#x2F;资料参考"></a>待修改&#x2F;资料参考</h4><p>图片轮播</p>
 <p><a target="_blank" rel="noopener" href="https://mantyke.icu/posts/2021/cf2cf0fb/">https://mantyke.icu/posts/2021/cf2cf0fb/</a></p>
 <p>umami</p>
@@ -438,7 +465,7 @@
   <aside class="post-toc">
     <div class="title"><span>文章导航</span></div>
     <div class="toc-inner">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0"><span class="toc-text">代码笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2"><span class="toc-text">博客</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Meta"><span class="toc-text">Meta</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Horizontal-Scroll"><span class="toc-text">Horizontal Scroll</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%95%E7%AF%87%E5%8D%9A%E6%96%87%E5%AF%86%E7%A0%81%E8%AE%BF%E9%97%AE"><span class="toc-text">单篇博文密码访问</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BE%85%E4%BF%AE%E6%94%B9-x2F-%E8%B5%84%E6%96%99%E5%8F%82%E8%80%83"><span class="toc-text">待修改&#x2F;资料参考</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AA%E7%AB%99"><span class="toc-text">个站</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Full-Page-Click"><span class="toc-text">Full Page Click</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Screen-Size"><span class="toc-text">Screen Size</span></a></li></ol></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0"><span class="toc-text">代码笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2"><span class="toc-text">博客</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Meta"><span class="toc-text">Meta</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Horizontal-Scroll"><span class="toc-text">Horizontal Scroll</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%95%E7%AF%87%E5%8D%9A%E6%96%87%E5%AF%86%E7%A0%81%E8%AE%BF%E9%97%AE"><span class="toc-text">单篇博文密码访问</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%BC%A0%E6%A0%87%E6%82%AC%E6%B5%AE%E5%9B%BE%E7%89%87%E6%82%AC%E5%81%9C"><span class="toc-text">鼠标悬浮图片悬停</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8F%8C%E5%88%97%E5%B8%83%E5%B1%80"><span class="toc-text">响应式双列布局</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BE%85%E4%BF%AE%E6%94%B9-x2F-%E8%B5%84%E6%96%99%E5%8F%82%E8%80%83"><span class="toc-text">待修改&#x2F;资料参考</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AA%E7%AB%99"><span class="toc-text">个站</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Full-Page-Click"><span class="toc-text">Full Page Click</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Screen-Size"><span class="toc-text">Screen Size</span></a></li></ol></li></ol></li></ol>
     </div>
   </aside>
 
@@ -492,39 +519,7 @@
   <div class="tagcloud-taglist">
   
     <div class="tagcloud-tag">
-      <button>craft</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>random</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>design</button>
-    </div>
-  
-    <div class="tagcloud-tag">
       <button>travel</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>food</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>research</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>recipe</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>art</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>textile</button>
     </div>
   
     <div class="tagcloud-tag">
@@ -532,15 +527,11 @@
     </div>
   
     <div class="tagcloud-tag">
-      <button>website</button>
+      <button>design</button>
     </div>
   
     <div class="tagcloud-tag">
-      <button>community</button>
-    </div>
-  
-    <div class="tagcloud-tag">
-      <button>event</button>
+      <button>art</button>
     </div>
   
     <div class="tagcloud-tag">
@@ -552,11 +543,43 @@
     </div>
   
     <div class="tagcloud-tag">
+      <button>food</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>recipe</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>community</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>website</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>craft</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>event</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>random</button>
+    </div>
+  
+    <div class="tagcloud-tag">
       <button>photography</button>
     </div>
   
     <div class="tagcloud-tag">
       <button>fermentation</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>research</button>
     </div>
   
     <div class="tagcloud-tag">
@@ -571,41 +594,66 @@
       <button>newsletter</button>
     </div>
   
+    <div class="tagcloud-tag">
+      <button>textile</button>
+    </div>
+  
   </div>
   
     <div class="tagcloud-postlist active">
-      <h2>craft</h2>
+      <h2>travel</h2>
       
         <div class="tagcloud-post">
-          <a href="/2020/06/23/Zimmerumbau/">
-            <time class="tagcloud-posttime">2020 / 06 / 23</time>
-            <span>睡房重置计划</span>
+          <a href="/2023/04/17/2023-milan-design-week/">
+            <time class="tagcloud-posttime">2023 / 04 / 17</time>
+            <span>2023米兰设计周</span>
           </a>
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2020/04/04/calendar-book/">
-            <time class="tagcloud-posttime">2020 / 04 / 04</time>
-            <span>给自己做了2020年的日程本</span>
+          <a href="/2013/11/02/ninghai/">
+            <time class="tagcloud-posttime">2013 / 11 / 02</time>
+            <span>宁海红妆调研</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/07/13/rencontres-arles/">
+            <time class="tagcloud-posttime">2023 / 07 / 13</time>
+            <span>阿尔勒游记</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2016/11/22/travel-of-tofu/">
+            <time class="tagcloud-posttime">2016 / 11 / 22</time>
+            <span>豆腐之旅</span>
           </a>
         </div>
       
     </div>
   
     <div class="tagcloud-postlist ">
-      <h2>random</h2>
+      <h2>note</h2>
       
         <div class="tagcloud-post">
-          <a href="/2023/09/08/alle-reden-ueber-KI/">
-            <time class="tagcloud-posttime">2023 / 09 / 08</time>
-            <span>所有人都在谈论AI</span>
+          <a href="/2023/04/17/2023-milan-design-week/">
+            <time class="tagcloud-posttime">2023 / 04 / 17</time>
+            <span>2023米兰设计周</span>
           </a>
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2023/08/21/housework-and-meditation/">
-            <time class="tagcloud-posttime">2023 / 08 / 21</time>
-            <span>家务之星&神游大王</span>
+          <a href="/2023/06/19/blog-update/">
+            <time class="tagcloud-posttime">2023 / 06 / 19</time>
+            <span>周末的夜晚，可以用来折腾网站</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/10/19/porcelain-manufacturer-visit/">
+            <time class="tagcloud-posttime">2023 / 10 / 19</time>
+            <span>瓷器工厂参观笔记</span>
           </a>
         </div>
       
@@ -652,33 +700,43 @@
     </div>
   
     <div class="tagcloud-postlist ">
-      <h2>travel</h2>
+      <h2>art</h2>
       
         <div class="tagcloud-post">
-          <a href="/2023/04/17/2023-milan-design-week/">
-            <time class="tagcloud-posttime">2023 / 04 / 17</time>
-            <span>2023米兰设计周</span>
+          <a href="/2024/09/08/2024-Unverdient/">
+            <time class="tagcloud-posttime">2024 / 09 / 08</time>
+            <span>草蜢周二</span>
           </a>
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2013/11/02/ninghai/">
-            <time class="tagcloud-posttime">2013 / 11 / 02</time>
-            <span>宁海红妆调研</span>
+          <a href="/2023/08/21/housework-and-meditation/">
+            <time class="tagcloud-posttime">2023 / 08 / 21</time>
+            <span>家务之星&神游大王</span>
           </a>
         </div>
       
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>theater</h2>
+      
         <div class="tagcloud-post">
-          <a href="/2023/07/13/rencontres-arles/">
-            <time class="tagcloud-posttime">2023 / 07 / 13</time>
-            <span>阿尔勒游记</span>
+          <a href="/2024/09/08/2024-Unverdient/">
+            <time class="tagcloud-posttime">2024 / 09 / 08</time>
+            <span>草蜢周二</span>
           </a>
         </div>
       
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>performance</h2>
+      
         <div class="tagcloud-post">
-          <a href="/2016/11/22/travel-of-tofu/">
-            <time class="tagcloud-posttime">2016 / 11 / 22</time>
-            <span>豆腐之旅</span>
+          <a href="/2024/09/08/2024-Unverdient/">
+            <time class="tagcloud-posttime">2024 / 09 / 08</time>
+            <span>草蜢周二</span>
           </a>
         </div>
       
@@ -688,16 +746,16 @@
       <h2>food</h2>
       
         <div class="tagcloud-post">
-          <a href="/2024/02/12/2024-new-year/">
-            <time class="tagcloud-posttime">2024 / 02 / 12</time>
-            <span>龙年新春，炉边再聚</span>
+          <a href="/2023/02/08/2023-new-year/">
+            <time class="tagcloud-posttime">2023 / 02 / 08</time>
+            <span>围炉过年</span>
           </a>
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2023/02/08/2023-new-year/">
-            <time class="tagcloud-posttime">2023 / 02 / 08</time>
-            <span>围炉过年</span>
+          <a href="/2024/02/12/2024-new-year/">
+            <time class="tagcloud-posttime">2024 / 02 / 12</time>
+            <span>龙年新春，炉边再聚</span>
           </a>
         </div>
       
@@ -739,46 +797,6 @@
     </div>
   
     <div class="tagcloud-postlist ">
-      <h2>research</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/10/20/fermentation-note/">
-            <time class="tagcloud-posttime">2023 / 10 / 20</time>
-            <span>匆匆写下的发酵年记，和一点新动向</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/05/01/fortune-desserts-2022-abC/">
-            <time class="tagcloud-posttime">2023 / 05 / 01</time>
-            <span>回顾2022abC《幸运甜点》</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2013/11/02/ninghai/">
-            <time class="tagcloud-posttime">2013 / 11 / 02</time>
-            <span>宁海红妆调研</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2016/11/22/travel-of-tofu/">
-            <time class="tagcloud-posttime">2016 / 11 / 22</time>
-            <span>豆腐之旅</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2019/04/19/wanderer/">
-            <time class="tagcloud-posttime">2019 / 04 / 19</time>
-            <span>漫游者——日常物件中的发酵</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
       <h2>recipe</h2>
       
         <div class="tagcloud-post">
@@ -791,57 +809,19 @@
     </div>
   
     <div class="tagcloud-postlist ">
-      <h2>art</h2>
+      <h2>community</h2>
       
         <div class="tagcloud-post">
-          <a href="/2024/09/08/2024-Unverdient/">
-            <time class="tagcloud-posttime">2024 / 09 / 08</time>
-            <span>草蜢周二</span>
+          <a href="/2023/02/08/2023-new-year/">
+            <time class="tagcloud-posttime">2023 / 02 / 08</time>
+            <span>围炉过年</span>
           </a>
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2023/08/21/housework-and-meditation/">
-            <time class="tagcloud-posttime">2023 / 08 / 21</time>
-            <span>家务之星&神游大王</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>textile</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2019/04/19/wanderer/">
-            <time class="tagcloud-posttime">2019 / 04 / 19</time>
-            <span>漫游者——日常物件中的发酵</span>
-          </a>
-        </div>
-      
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>note</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/04/17/2023-milan-design-week/">
-            <time class="tagcloud-posttime">2023 / 04 / 17</time>
-            <span>2023米兰设计周</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/06/19/blog-update/">
-            <time class="tagcloud-posttime">2023 / 06 / 19</time>
-            <span>周末的夜晚，可以用来折腾网站</span>
-          </a>
-        </div>
-      
-        <div class="tagcloud-post">
-          <a href="/2023/10/19/porcelain-manufacturer-visit/">
-            <time class="tagcloud-posttime">2023 / 10 / 19</time>
-            <span>瓷器工厂参观笔记</span>
+          <a href="/2024/02/12/2024-new-year/">
+            <time class="tagcloud-posttime">2024 / 02 / 12</time>
+            <span>龙年新春，炉边再聚</span>
           </a>
         </div>
       
@@ -867,19 +847,19 @@
     </div>
   
     <div class="tagcloud-postlist ">
-      <h2>community</h2>
+      <h2>craft</h2>
       
         <div class="tagcloud-post">
-          <a href="/2024/02/12/2024-new-year/">
-            <time class="tagcloud-posttime">2024 / 02 / 12</time>
-            <span>龙年新春，炉边再聚</span>
+          <a href="/2020/06/23/Zimmerumbau/">
+            <time class="tagcloud-posttime">2020 / 06 / 23</time>
+            <span>睡房重置计划</span>
           </a>
         </div>
       
         <div class="tagcloud-post">
-          <a href="/2023/02/08/2023-new-year/">
-            <time class="tagcloud-posttime">2023 / 02 / 08</time>
-            <span>围炉过年</span>
+          <a href="/2020/04/04/calendar-book/">
+            <time class="tagcloud-posttime">2020 / 04 / 04</time>
+            <span>给自己做了2020年的日程本</span>
           </a>
         </div>
       
@@ -898,24 +878,19 @@
     </div>
   
     <div class="tagcloud-postlist ">
-      <h2>theater</h2>
+      <h2>random</h2>
       
         <div class="tagcloud-post">
-          <a href="/2024/09/08/2024-Unverdient/">
-            <time class="tagcloud-posttime">2024 / 09 / 08</time>
-            <span>草蜢周二</span>
+          <a href="/2023/09/08/alle-reden-ueber-KI/">
+            <time class="tagcloud-posttime">2023 / 09 / 08</time>
+            <span>所有人都在谈论AI</span>
           </a>
         </div>
       
-    </div>
-  
-    <div class="tagcloud-postlist ">
-      <h2>performance</h2>
-      
         <div class="tagcloud-post">
-          <a href="/2024/09/08/2024-Unverdient/">
-            <time class="tagcloud-posttime">2024 / 09 / 08</time>
-            <span>草蜢周二</span>
+          <a href="/2023/08/21/housework-and-meditation/">
+            <time class="tagcloud-posttime">2023 / 08 / 21</time>
+            <span>家务之星&神游大王</span>
           </a>
         </div>
       
@@ -953,6 +928,46 @@
     </div>
   
     <div class="tagcloud-postlist ">
+      <h2>research</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/10/20/fermentation-note/">
+            <time class="tagcloud-posttime">2023 / 10 / 20</time>
+            <span>匆匆写下的发酵年记，和一点新动向</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2013/11/02/ninghai/">
+            <time class="tagcloud-posttime">2013 / 11 / 02</time>
+            <span>宁海红妆调研</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2023/05/01/fortune-desserts-2022-abC/">
+            <time class="tagcloud-posttime">2023 / 05 / 01</time>
+            <span>回顾2022abC《幸运甜点》</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2016/11/22/travel-of-tofu/">
+            <time class="tagcloud-posttime">2016 / 11 / 22</time>
+            <span>豆腐之旅</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2019/04/19/wanderer/">
+            <time class="tagcloud-posttime">2019 / 04 / 19</time>
+            <span>漫游者——日常物件中的发酵</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
       <h2>news</h2>
       
         <div class="tagcloud-post">
@@ -983,6 +998,18 @@
           <a href="/2022/12/29/tofoodesign-newsletter/">
             <time class="tagcloud-posttime">2022 / 12 / 29</time>
             <span>来自2022年末的邮件</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>textile</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2019/04/19/wanderer/">
+            <time class="tagcloud-posttime">2019 / 04 / 19</time>
+            <span>漫游者——日常物件中的发酵</span>
           </a>
         </div>
       

@@ -7,10 +7,10 @@
   display: none; /* 初始状态下隐藏图片 */
   position: absolute;
   top: 100%; /* 图片出现在元素的下方 */
-  left: 50%;
+  left: 100%;
   transform: translateX(-50%);
   margin-top: 10px; /* 图片与元素之间的距离 */
-  width: 200px; /* 根据需要调整图片宽度 */
+  width: 250px; /* 根据需要调整图片宽度 */
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* 添加阴影效果 */
   z-index: 10; /* 确保图片位于其他元素之上 */
 }

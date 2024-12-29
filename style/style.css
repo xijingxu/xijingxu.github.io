@@ -956,17 +956,21 @@ body.under {
   color: #383838;
 }
 .footer hr {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  max-width: 900px;
+  margin: 1;
   border: none;
   height: 0.2px;
-  max-width: 900px;
   background-color: #999;
 }
 .footer .footer-wrapper {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: left;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 1;
 }
 @media screen and (max-width: 936px) {
   .footer .footer-wrapper {

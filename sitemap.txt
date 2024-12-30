@@ -31,10 +31,10 @@ http://blog.xijingxu.com/tags/research/
 http://blog.xijingxu.com/tags/recipe/
 http://blog.xijingxu.com/tags/art/
 http://blog.xijingxu.com/tags/textile/
+http://blog.xijingxu.com/tags/note/
 http://blog.xijingxu.com/tags/community/
 http://blog.xijingxu.com/tags/theater/
 http://blog.xijingxu.com/tags/performance/
-http://blog.xijingxu.com/tags/note/
 http://blog.xijingxu.com/tags/website/
 http://blog.xijingxu.com/tags/event/
 http://blog.xijingxu.com/tags/photography/

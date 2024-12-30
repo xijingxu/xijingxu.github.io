@@ -288,13 +288,6 @@
   </url>
   
   <url>
-    <loc>http://blog.xijingxu.com/tags/note/</loc>
-    <lastmod>2024-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.xijingxu.com/tags/theater/</loc>
     <lastmod>2024-12-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -303,6 +296,13 @@
   
   <url>
     <loc>http://blog.xijingxu.com/tags/performance/</loc>
+    <lastmod>2024-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/note/</loc>
     <lastmod>2024-12-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -344,14 +344,14 @@
   </url>
   
   <url>
-    <loc>http://blog.xijingxu.com/tags/manufacture/</loc>
+    <loc>http://blog.xijingxu.com/tags/newsletter/</loc>
     <lastmod>2024-12-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.xijingxu.com/tags/newsletter/</loc>
+    <loc>http://blog.xijingxu.com/tags/manufacture/</loc>
     <lastmod>2024-12-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

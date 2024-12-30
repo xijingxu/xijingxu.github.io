@@ -1752,7 +1752,7 @@ body.under {
   background-color: transparent;
   cursor: pointer;
   border-radius: 12px;
-  padding: 8px 16px;
+  padding: 0;
   color: #999;
   font-weight: bold;
   border: 1px solid;
@@ -1768,7 +1768,7 @@ body.under {
 .tagcloud {
   display: none;
   position: fixed;
-  top: 98px;
+  top: 3em;
   right: 0;
   bottom: 0;
   left: 0;
@@ -1787,7 +1787,7 @@ body.under {
 .tagcloud .tagcloud-taglist {
   width: 100%;
   margin-top: 4em;
-  padding: 0 4em;
+  padding: 0 2em;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -1798,8 +1798,8 @@ body.under {
 }
 .tagcloud .tagcloud-postlist {
   display: none;
-  padding: 0 6em;
-  margin: 32px 0;
+  padding: 0 3em;
+  margin: 0;
 }
 .tagcloud .tagcloud-postlist h2 {
   color: #000;

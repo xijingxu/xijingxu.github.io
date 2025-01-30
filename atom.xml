@@ -6,7 +6,7 @@
   <link href="http://blog.xijingxu.com/atom.xml" rel="self"/>
   
   <link href="http://blog.xijingxu.com/"/>
-  <updated>2025-01-26T09:59:12.033Z</updated>
+  <updated>2025-01-30T18:24:48.658Z</updated>
   <id>http://blog.xijingxu.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>麦的品种</title>
+    <link href="http://blog.xijingxu.com/2025/01/30/2025-wheat-Taxonomy/"/>
+    <id>http://blog.xijingxu.com/2025/01/30/2025-wheat-Taxonomy/</id>
+    <published>2025-01-29T23:00:00.000Z</published>
+    <updated>2025-01-30T18:24:48.658Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>最近斥资下单了一台磨粉机，跃跃欲试地想要购入不同品种的谷物豆类，在风味学习上再精进一番。</p><p>然而，在不同语境下常常被提及的不同小麦品种的分类都不太一样，常常让我感到有点困惑。比如，在上一篇博客中提及的一粒小麦二粒小麦等，常见于对小麦的演进过程的叙述中；在食品生产中，人们关注的是Weichweizen（普通小麦&#x2F;Common Wheat）和Hartweizen（硬粒小麦&#x2F;Durum Wheat）的分类；在保护老品种的语境中，则会出现一些对我来说很陌生的名字，比如Bartweizen，Brauner Binkel，Polnischer Weizen，Gommer等等；而在看网络上许多烘焙视频的过程中，则有很多人提到红小麦，白小麦……</p><p>这些对小麦的分类，来自同一套语境，隶属于同一个分类法吗？缺少一个可以让我俯瞰的知识框架导致我认知起来如坠云雾，于是这两天借着deep seek帮忙，结合网上能找到的资料，稍微梳理了一下。</p><span id="more"></span><p>Disclaimer：本人并非植物&#x2F;农业专家，如果在搜集资料的过程中有出现任何事实错误，欢迎指证!</p><hr><p>我们所说的谷物(Getreide)通常指的是作为粮食的禾本科(Poaceae)植物的种子。<br>不管是什么品种的小麦，都是隶属于禾本科底下麦属(Triticum)的细分</p><p>以普通小麦为例，大概就是这样的感觉</p><table><thead><tr><th></th><th>域(Domain&#x2F;<br>Domäne)</th><th>界<br>(Kingdom&#x2F;<br>Reich)</th><th>门<br>(Phylum&#x2F;<br>Stamm)</th><th>纲<br>(Class&#x2F;<br>Klasse)</th><th>目<br>(Order&#x2F;<br>Ordnung)</th><th>科<br>(Family&#x2F;<br>Familie)</th><th>属(Genus&#x2F;<br>Gattung)</th><th>种<br>(Species&#x2F;<br>Art)</th></tr></thead><tbody><tr><td>普通小麦 Common Wheat</td><td>真核域Eukarya</td><td>植物界Plantae</td><td>被子植物门Angiosperms</td><td>单子叶植物纲Monocotyledons</td><td>禾本目Poales</td><td>禾本科Poaceae</td><td>小麦属Triticum</td><td>Aestivum</td></tr></tbody></table><p>而在现有的对小麦演进的推测中，贡献基因组BB和DD的Aegilops speltoides和Aegilops tauschii则隶属于与麦属同级的山羊草属(Aegilops)。</p><blockquote><p>小麦系列的起源基于一个未知的二倍体原型，在此基础上通过二倍体分化形成了小麦属（Triticum）和山羊草属（Aegilops）。在麦属中，Einkorn系列是以 AA 基因组（2n &#x3D; 14）发展起来的。与 Aegilops speltoides（基因组 BB）的异源多倍体化（杂交，随后染色体组复制）产生了了四倍体的Emmer系列（AABB）。基因组为 AABBDD 的斯佩耳特系列是与 Aegilops squarrosa（基因组为 DD, aegilops tauschii旧名）进一步异源多倍体化（突变）的结果。</p></blockquote><p>source: <a href="https://www.proplanta.de/weizen/weizen-systematik_pflanze1181473193.html">https://www.proplanta.de/weizen/weizen-systematik_pflanze1181473193.html</a></p><p>所谓一粒二粒小麦，其实都是麦属底下的不同物种：</p><table><thead><tr><th></th><th>属(Genus&#x2F; Gattung)</th><th>种(Species&#x2F;Art)</th></tr></thead><tbody><tr><td>一粒小麦 Einkorn Wheat</td><td>小麦属 Triticum</td><td>Monococcum</td></tr><tr><td>二粒小麦 Emmer Wheat</td><td>小麦属 Triticum</td><td>Dicoccum</td></tr><tr><td>硬粒小麦 Durum Wheat</td><td>小麦属 Triticum</td><td>Durum</td></tr><tr><td>普通小麦 Common Wheat</td><td>小麦属 Triticum</td><td>Aestivum</td></tr><tr><td>斯佩尔特小麦 Spelt Wheat</td><td>小麦属 Triticum</td><td>Spelta</td></tr></tbody></table><p>除此之外，麦属底下还有许多其他不太常听到的物种，从基因组的不同可以这样被分类</p><table><thead><tr><th><strong>基因组</strong></th><th><strong>物种</strong></th><th><strong>类型</strong></th><th><strong>主要特征</strong></th></tr></thead><tbody><tr><td>二倍体<br><strong>AA</strong></td><td><em>Triticum urartu</em></td><td>野生种</td><td>普通小麦和硬粒小麦的A基因组供体。</td></tr><tr><td></td><td><em>Triticum monococcum</em></td><td>栽培种</td><td>最古老的小麦之一，二倍体。</td></tr><tr><td></td><td><em>Triticum m.boeoticum</em></td><td>野生种</td><td>monococcum的野生种</td></tr><tr><td>四倍体<br><strong>AABB</strong></td><td><em>Triticum turgidum subsp.  dicoccoides</em></td><td>野生种</td><td>硬粒小麦和栽培二粒小麦的祖先。</td></tr><tr><td></td><td><em>Triticum turgidum subsp.  dicoccum</em></td><td>栽培种</td><td>古代广泛种植的四倍体小麦。</td></tr><tr><td></td><td><em>Triticum turgidum subsp. carthlicum</em></td><td>栽培种</td><td>稀有四倍体小麦，分布在高加索地区。</td></tr><tr><td></td><td><em>Triticum turgidum subsp. durum</em></td><td>栽培种</td><td>现代硬粒小麦，用于制作意大利面。</td></tr><tr><td></td><td><em>Triticum turgidum subsp.  polonicum</em></td><td>栽培种</td><td>长芒、大籽粒，作为春小麦播种。</td></tr><tr><td></td><td><em>Triticum turanicum</em></td><td>栽培种</td><td>Khorasan wheat，卡姆小麦，又称东方小麦。据推测为T.durum和T.polonicum的杂交。大籽粒，常见于各种天然酵母爱好者社群。</td></tr><tr><td></td><td><em>Triticum timopheevii</em></td><td>野生种&#x2F;栽培种</td><td>据信，它是与更常见的 Triticum turgidum 隔离进化而来的，二者之间杂交无后代</td></tr><tr><td>六倍体<strong>AABBDD</strong></td><td><em>Triticum aestivum</em></td><td>栽培种</td><td>最常见的六倍体小麦，广泛用于食品加工。占据现代农业小麦种植的90%。大规模的种植也让农业生产区域单一化。</td></tr><tr><td></td><td><em>Triticum aestivum ssp. compactum</em></td><td>栽培种</td><td>常被称为Binkel，古老的品种。近年被在试验场被重新活化试种。施肥要求低。麦秆长，适合用于草编以及屋顶搭建</td></tr><tr><td></td><td><em>Triticum spelta</em></td><td>栽培种</td><td>古老的六倍体小麦，近年来重新受到关注。</td></tr><tr><td></td><td><em>Triticum aestivum subsp. macha</em></td><td>栽培种</td><td>稀有六倍体小麦，主要分布在南高加索格鲁吉亚。</td></tr></tbody></table><p>我之前对品种这个词似乎常常滥用，但是其实有几个具体的概念还是了解一下比较好：</p><ul><li><strong>亚种</strong>（Subspecies，缩写为 subsp. 或 ssp.）<ul><li>亚种是物种（Species）下的分类单位，用于描述在自然分布范围内因地理隔离或生态适应而产生的显著差异的群体。亚种之间可以杂交并产生可育后代，但在形态、生理或遗传上存在一定差异。</li><li>命名方式：物种名 + subsp. + 亚种名（拉丁语形式）。  </li><li>例如：<em>Triticum turgidum subsp. durum</em></li></ul></li><li><strong>变种</strong>（Variety，缩写为 var.）<ul><li>变种是物种或亚种下的分类单位，用于描述在自然条件下因遗传变异而产生的具有稳定特征的群体。变种之间的差异通常比亚种小，但仍然具有明显的形态或生理特征。</li><li>命名方式：物种名 + var. + 变种名（拉丁语形式）。  </li><li>例如：Triticum aestivum var. lutescens（Schwäbischer Dickkopf-Landweizen）</li></ul></li></ul><p>传统的分类学主要基于形态学特征（如植物的花、叶、种子等），而现代分类学则越来越多地依赖基因序列数据，其是<strong>DNA序列</strong>，来确定生物之间的进化关系和分类地位。</p><p>我想要在这千变万化的基因序列之间找到所有的可能性当然是不可能的，所以在应用层面或者从literature中寻找不同品种存在的痕迹，反而更有帮助。</p><p>除此之外，在自然分类学以外，对于作物的应用中，会用到其他以实用角度出发的的概念和分类方法：</p><ul><li><strong>栽培品种</strong>（Cultivar）<ul><li>栽培品种是通过人工选育或杂交培育的植物群体，具有特定的农艺性状（如高产、抗病、优质等）。栽培品种是人类农业活动的产物，通常不用于自然分类。<ul><li><strong>纯系品种（Pure Line Cultivars）</strong>：通过选择育种或自交多代形成的遗传稳定的品种。</li><li><strong>杂交品种（Hybrid Cultivars）</strong>：通过杂交育种形成的具有杂种优势但是遗传多样性低下的品种。</li><li><strong>群体品种（Population Cultivars）</strong>：通过混合选择或开放授粉形成的遗传多样性较高的品种。</li></ul></li></ul></li></ul><p>在市面经常听到的一些一听就很人工的名字，比如龙井43，嘉禾优5号之类的，基本上就可以判断是人工培育的杂交品种。</p><p>而平时大家提到的所谓<strong>红小麦</strong>和<strong>白小麦</strong>，仅仅是基于籽粒外皮的色素（主要是类黄酮）含量不同而划分的。无论是普通小麦、硬粒小麦还是其他品种，都可以根据颜色分为红小麦和白小麦。</p><p><strong>春小麦</strong>、<strong>冬小麦</strong>的分类是基于<strong>种植季节和生长习性</strong>的农业分类法，而不是基于植物学或遗传学的分类。这种分类方法主要用于农业生产和管理，帮助农民根据当地气候条件选择合适的小麦品种。</p><p>还有一些特定名称的面粉比如Semolina，指的其实是硬粒小麦粗磨而成的面粉，专门用来做意大利面。是对用途的定义而非植物种类名字。</p><p>&lt;maybe 待续&gt;</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;最近斥资下单了一台磨粉机，跃跃欲试地想要购入不同品种的谷物豆类，在风味学习上再精进一番。&lt;/p&gt;
+&lt;p&gt;然而，在不同语境下常常被提及的不同小麦品种的分类都不太一样，常常让我感到有点困惑。比如，在上一篇博客中提及的一粒小麦二粒小麦等，常见于对小麦的演进过程的叙述中；在食品生产中，人们关注的是Weichweizen（普通小麦&amp;#x2F;Common Wheat）和Hartweizen（硬粒小麦&amp;#x2F;Durum Wheat）的分类；在保护老品种的语境中，则会出现一些对我来说很陌生的名字，比如Bartweizen，Brauner Binkel，Polnischer Weizen，Gommer等等；而在看网络上许多烘焙视频的过程中，则有很多人提到红小麦，白小麦……&lt;/p&gt;
+&lt;p&gt;这些对小麦的分类，来自同一套语境，隶属于同一个分类法吗？缺少一个可以让我俯瞰的知识框架导致我认知起来如坠云雾，于是这两天借着deep seek帮忙，结合网上能找到的资料，稍微梳理了一下。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="food" scheme="http://blog.xijingxu.com/tags/food/"/>
+    
+    <category term="research" scheme="http://blog.xijingxu.com/tags/research/"/>
+    
+    <category term="note" scheme="http://blog.xijingxu.com/tags/note/"/>
+    
+  </entry>
   
   <entry>
     <title>被收播的种子，被编织的麦田</title>
@@ -430,29 +455,6 @@
     <category term="research" scheme="http://blog.xijingxu.com/tags/research/"/>
     
     <category term="textile" scheme="http://blog.xijingxu.com/tags/textile/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>豆腐之旅</title>
-    <link href="http://blog.xijingxu.com/2016/11/22/travel-of-tofu/"/>
-    <id>http://blog.xijingxu.com/2016/11/22/travel-of-tofu/</id>
-    <published>2016-11-22T21:30:46.000Z</published>
-    <updated>2023-10-04T08:02:16.453Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830201/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/15_%E8%B1%86%E7%9A%AE_k8xjaj.jpg"></p><p>本科毕业作品<a href="https://xijingxu.com/project-tofu-drink-2016">《豆腐花》</a>背后的调研文字与图片记录。</p><span id="more"></span><hr><h2 id="安徽豆腐村"><a href="#安徽豆腐村" class="headerlink" title="安徽豆腐村"></a>安徽豆腐村</h2><p>2016年1月，我跟着<a href="https://www.chitofu.com/">方方</a>的脚步，一行人来到安徽豆腐溯源。</p><h3 id="八公山"><a href="#八公山" class="headerlink" title="八公山"></a>八公山</h3><p>旅行从八公山豆腐村开始，这里已是一道旅游经典，一条山路上沿路两边房屋，家家做豆腐，趁此之行我们拜访了《舌尖上的中国》里秀过绝活的胡学兵，偷师学做豆腐。</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671829447/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/4_%E8%B0%83%E9%85%8D%E5%8D%A4%E6%B0%B4_g825kq.jpg"><br>此处用石膏点卤</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671829447/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/5_%E6%90%85%E6%8B%8C%E5%8D%A4%E6%B0%B4_jzqs60.jpg"></p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671829463/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/8_%E5%8E%8B%E6%A8%A1_tajkps.jpg"><br>豆腐模具压制豆腐</p><p>在村口，我们途径一位姓杜的先生家庭院，彼时正在压豆干——一层模具一层纱布一层豆腐，再一层模具一层纱布一层豆腐……这么堆叠起来压去水分，便是豆干的制作步骤了。</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671829459/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/12_%E5%8E%8B%E8%B1%86%E8%85%90_aptrdu.jpg"></p><h3 id="蓝田休宁"><a href="#蓝田休宁" class="headerlink" title="蓝田休宁"></a>蓝田休宁</h3><p>在休宁县蓝田镇，有两家在做毛豆腐。 我们1月19日下午首先拜访了因舌尖而出名的方鑫玉家，因为纪录片的拍摄，从入村到她家的路上，一路都是宣传标语。很多慕名而来的人找他们供货，他们也有经销在淘宝贩售商品。</p><p>老板说毛豆腐一般用来煎，吃到原味。煎的毛豆腐，冬天发酵一周，夏天发酵三四天。本地人也喜欢红烧炖肉一起。或者清蒸火腿肉，这需要发酵时间更长。也会把很多毛豆腐制成腐乳，要用毛长厚的毛豆腐腌制，腌制时间大约7天。</p><p>1月20日上午重新拜访，观看整个制作流程。 现磨豆子，同是机器，与八公山处看到大同小异。接着以竹篮垫纱布滤渣， 蒸煮豆浆时在一旁使用电风扇，以取代使用消泡剂。在蒸煮豆浆过程中将表面凝结而成的豆皮撩起。由此可撩去豆浆中的油脂，这样剩下的豆浆做成的毛豆腐才能正常发酵长毛，不然会坏掉，同时豆皮也可作为副产品食用。</p><p>不同于八公山的石膏点卤，每日需要调配新的卤子，方家使用卤水点豆——从卤缸里面舀出卤水，用卤水点好豆浆以后，过滤出汁水放回卤缸，下一次继续用，也可称为豆子点豆子。</p><p>蓝田的另一家毛豆腐作坊“老太婆毛豆腐”，几乎完全湮没在方鑫玉的光环下，但是不同于方鑫玉的多工人热火朝天，老太婆倒是给人一种慢慢细细的手做活感。</p><p>作坊是泼辣圆胖可爱急躁管钱女主人&amp;温和矮瘦和善耐心干活男主人的搭配，不经营网络销售，打算开农家乐。 我们只看到撩豆皮这一个步骤，没有其他工人，老板一个人，仔仔细细地一张张撩。电风扇要一直开着吹散热气，撩的时候要关掉，怕把豆皮吹皱，接着小刀在边缘划一圈，轻轻地撩起一个小角，插入撩杆，缓慢地揭起，保证水分慢慢地干，才能保证质感</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830168/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/2_%E6%AF%9B%E8%B1%86%E8%85%90_2_tmg6rs.jpg"></p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830169/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/3_%E6%AF%9B%E8%B1%86%E8%85%90_3_ixle2e.jpg"><br>长毛的豆腐胚</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830186/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/8_%E8%85%90%E4%B9%B3_wasvpg.jpg"><br>一块块堆叠起来的腐乳胚子</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830178/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/8_%E6%BB%A4%E6%B8%A3_api7iv.jpg"><br>滤汁</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830200/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/14_%E6%92%A9%E8%B1%86%E7%9A%AE_hrk7we.jpg"><br>老太婆家的男主人在小心翼翼地撩起一张豆皮</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830201/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/15_%E8%B1%86%E7%9A%AE_k8xjaj.jpg"></p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830201/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/17_%E7%BA%A2%E7%83%A7%E8%82%89_wuztnl.jpg"><br>清蒸火腿肉</p><h3 id="西递"><a href="#西递" class="headerlink" title="西递"></a>西递</h3><p>在西递，我们见到了腊八豆腐</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830597/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/1_%E8%85%8A%E5%85%AB%E8%B1%86%E8%85%90_nx0ehd.jpg"></p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830595/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/2_%E5%B7%A5%E5%85%B7_zizsj5.jpg"><br>腊八豆腐的制作工具</p><h2 id="在家自制豆腐"><a href="#在家自制豆腐" class="headerlink" title="在家自制豆腐"></a>在家自制豆腐</h2><p>从安徽回来，我也尝试着在家自制了几次豆腐。</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830789/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/2_tofu_fp4zmm.jpg"></p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830778/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/4_coagulated_gnz1tx.jpg"><br>豆腐点卤后，蛋白凝结成絮状的形态。</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830780/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/7_tofu_making_process_biproducts_mj6hk9.jpg"></p><p>豆腐制作过程也像是材料被加工的过程，从原料黄豆出发，在奔向成品豆腐的途中，经历了压榨，滤渣，煮发，点卤等等工序，在各个不同的工序岔口诞生出不同的衍生品，形成了豆制品大家族。</p><p><img src="https://res.cloudinary.com/dndqsj4qj/image/upload/v1671830778/blog/2016-%E8%B1%86%E8%85%90%E4%B9%8B%E6%97%85/6_open_szwl4c.jpg"></p>]]></content>
-    
-    
-    <summary type="html">本科毕业作品《豆腐花》背后的调研文字与图片记录。</summary>
-    
-    
-    
-    
-    <category term="travel" scheme="http://blog.xijingxu.com/tags/travel/"/>
-    
-    <category term="food" scheme="http://blog.xijingxu.com/tags/food/"/>
-    
-    <category term="research" scheme="http://blog.xijingxu.com/tags/research/"/>
     
   </entry>
   

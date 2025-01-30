@@ -308,6 +308,13 @@
   </url>
   
   <url>
+    <loc>http://blog.xijingxu.com/tags/community/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.xijingxu.com/tags/note/</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -336,28 +343,7 @@
   </url>
   
   <url>
-    <loc>http://blog.xijingxu.com/tags/community/</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.xijingxu.com/tags/event/</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/tags/agriculture/</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/tags/bread/</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -372,6 +358,20 @@
   
   <url>
     <loc>http://blog.xijingxu.com/tags/news/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/agriculture/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/bread/</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

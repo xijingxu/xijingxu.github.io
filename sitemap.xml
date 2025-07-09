@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.xijingxu.com/2025/01/30/2025-wheat-Taxonomy/</loc>
+    <loc>http://blog.xijingxu.com/2025/07/09/2025-glasur-study/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -11,7 +11,16 @@
   </url>
   
   <url>
-    <loc>http://blog.xijingxu.com/2025/07/09/2025-glasur-study/</loc>
+    <loc>http://blog.xijingxu.com/2025/02/05/2025-Qu/</loc>
+    
+    <lastmod>2025-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/2025/01/30/2025-wheat-Taxonomy/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -32,15 +41,6 @@
     <loc>http://blog.xijingxu.com/About/index.html</loc>
     
     <lastmod>2025-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/2025/02/05/2025-Qu/</loc>
-    
-    <lastmod>2025-02-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

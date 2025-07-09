@@ -2,18 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.xijingxu.com/2025/02/05/2025-Qu/</loc>
+    <loc>http://blog.xijingxu.com/2025/01/30/2025-wheat-Taxonomy/</loc>
     
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://blog.xijingxu.com/2025/01/30/2025-wheat-Taxonomy/</loc>
+    <loc>http://blog.xijingxu.com/About/index.html</loc>
     
-    <lastmod>2025-01-30</lastmod>
+    <lastmod>2025-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/2025/02/05/2025-Qu/</loc>
+    
+    <lastmod>2025-02-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -41,15 +50,6 @@
     <loc>http://blog.xijingxu.com/2025/01/01/2025-new-year/</loc>
     
     <lastmod>2025-01-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/About/index.html</loc>
-    
-    <lastmod>2024-12-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -247,7 +247,7 @@
 
   <url>
     <loc>http://blog.xijingxu.com/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -255,154 +255,154 @@
   
   <url>
     <loc>http://blog.xijingxu.com/tags/craft/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/random/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/tags/design/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/tags/travel/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/food/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/research/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/recipe/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/design/</loc>
+    <lastmod>2025-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/travel/</loc>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/art/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/textile/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/community/</loc>
-    <lastmod>2025-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/tags/note/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/theater/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/performance/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/website/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/note/</loc>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/event/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/newsletter/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/news/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/agriculture/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/bread/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/photography/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/fermentation/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.xijingxu.com/tags/manufacture/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>http://blog.xijingxu.com/2025/07/09/2025-glasur-study/</loc>
+    
+    <lastmod>2025-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/2025/01/25/2025-weaving-the-wheat/</loc>
+    
+    <lastmod>2025-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.xijingxu.com/About/index.html</loc>
     
     <lastmod>2025-04-30</lastmod>
@@ -23,15 +41,6 @@
     <loc>http://blog.xijingxu.com/2025/02/05/2025-Qu/</loc>
     
     <lastmod>2025-02-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.xijingxu.com/2025/01/25/2025-weaving-the-wheat/</loc>
-    
-    <lastmod>2025-01-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -402,6 +411,20 @@
   
   <url>
     <loc>http://blog.xijingxu.com/tags/manufacture/</loc>
+    <lastmod>2025-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/glazing/</loc>
+    <lastmod>2025-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.xijingxu.com/tags/ceramic/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
